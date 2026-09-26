@@ -1,0 +1,3172 @@
+--[[
+    Fіlе Dеоbfuѕсаteԁ Usіng LеaκD
+    https://discord.gg/AwGHNh7Z7T
+]]
+
+local aa, ab
+local function runProtected3(a)
+    local function tryOperation13()
+        local textChatService = Enum.ChatVersion.TextChatService
+        local b
+        if ab.ChatVersion == textChatService then
+            b = ab.TextChannels:FindFirstChild("RBXGeneral")
+            if b then
+                b:SendAsync(a)
+                return
+            end
+        else
+            b = aa:FindFirstChild("DefaultChatSystemChatEvents") and aa.DefaultChatSystemChatEvents:FindFirstChild("SayMessageRequest")
+            if b then
+                b:FireServer(a, "All")
+                return
+            end
+        end
+    end
+    pcall(tryOperation13)
+    return a
+end
+local ac
+local function performTask5()
+    ac("ð§ââï¸Fá´ÉªÊÊ Tá´ÉªÊð§ââï¸Lá´á´á´ÉªÉ´É¢...")
+    task.wait(1)
+    ac("SCRIPTER >[ðKAVYAÃSIYAð]_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_- HELPER >[ EA_ATUL ] -_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-")
+    task.wait(1)
+    ac("SCRIPT NAME > [ð§ð½FAIRY TAILð§ð½]`_`_`_`_`_`_`_`_`_`_`_`_`_`_`_`_`_`_`_`_`_`_`_`_`_`_`_`_`_`_`_`_`_`_`_`_`_`_`_ð§ââï¸Fá´ÉªÊÊ Tá´ÉªÊð§ââï¸Lá´á´á´á´á´...")
+end
+local ad
+local function computeValue2(a, b, c)
+    ad:SetCore("SendNotification", {
+        Title = a or "Fá´ÉªÊÊ Tá´ÉªÊ",
+        Text = b or "",
+        Icon = "rbxassetid://85776523398751",
+        Duration = c or 2,
+    })
+    return a, b, c
+end
+local ae, af, ag, ah
+local function updateState4(a)
+    local b, c, d
+    local function onRenderStepped3(e)
+        local f = b
+        if b then
+            f = b.Parent
+        end
+        if f then
+            f = d
+        end
+        if f then
+            f = d.Parent
+        end
+        if f then
+            c.Enabled = ag
+            return
+        end
+    end
+    b = not a
+    local fairyTaleTag, uICorner, uIStroke, shineWave, uICorner2, uICorner3, infoBox, title, username
+    if not b then
+        c = a
+        b = a:WaitForChild("Head", 10)
+        c = not b
+        if not c then
+            c = Instance.new("BillboardGui")
+            c.Name = "FairyTaleBillboard"
+            c.Parent = b
+            c.Adornee = b
+            c.Size = UDim2.new(0, 150, 0, 40)
+            c.StudsOffset = Vector3.new(0, 2, 0)
+            c.AlwaysOnTop = true
+            fairyTaleTag = Instance.new("Frame")
+            fairyTaleTag.Name = "FairyTaleTag"
+            fairyTaleTag.Parent = c
+            fairyTaleTag.BackgroundColor3 = Color3.fromRGB(0, 255, 255)
+            d = 0
+            fairyTaleTag.Size = UDim2.new(1, 0, 1, 0)
+            fairyTaleTag.ClipsDescendants = true
+            uICorner = Instance.new("UICorner")
+            uICorner.CornerRadius = UDim.new(0, 9)
+            uICorner.Parent = fairyTaleTag
+            uIStroke = Instance.new("UIStroke")
+            uIStroke.Parent = fairyTaleTag
+            d = 255
+            uIStroke.Color = Color3.fromRGB(255, 255, 255)
+            uIStroke.Thickness = 1.8
+            shineWave = Instance.new("Frame")
+            shineWave.Name = "ShineWave"
+            shineWave.Parent = fairyTaleTag
+            d = 255
+            shineWave.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+            shineWave.BackgroundTransparency = 0.55
+            d = 0
+            shineWave.Size = UDim2.new(0, 22, 1.8, 0)
+            d = 0.5
+            shineWave.AnchorPoint = Vector2.new(0.5, 0.5)
+            d = -0.3
+            shineWave.Position = UDim2.new(-0.3, 0, 0.5, 0)
+            shineWave.Rotation = 25
+            shineWave.ZIndex = 3
+            d = "UICorner"
+            uICorner2 = Instance.new("UICorner")
+            d = UDim.new(1, 0)
+            uICorner2.CornerRadius = d
+            uICorner2.Parent = shineWave
+            d = Instance.new("ImageLabel")
+            d.Name = "ProfileImage"
+            d.Parent = fairyTaleTag
+            d.BackgroundColor3 = Color3.fromRGB(200, 255, 255)
+            d.AnchorPoint = Vector2.new(0.5, 0.5)
+            d.Position = UDim2.new(0.18, 0, 0.5, 0)
+            d.Size = UDim2.new(0, 30, 0, 30)
+            d.Image = "rbxassetid://85776523398751"
+            d.ZIndex = 4
+            uICorner3 = Instance.new("UICorner")
+            uICorner3.CornerRadius = UDim.new(1, 0)
+            uICorner3.Parent = d
+            infoBox = Instance.new("Frame")
+            infoBox.Name = "InfoBox"
+            infoBox.Parent = fairyTaleTag
+            infoBox.BackgroundTransparency = 1
+            infoBox.Position = UDim2.new(0.35, 0, 0.1, 0)
+            infoBox.Size = UDim2.new(0, 90, 0, 32)
+            infoBox.ZIndex = 4
+            title = Instance.new("TextLabel")
+            title.Name = "Title"
+            title.Parent = infoBox
+            title.BackgroundTransparency = 1
+            title.Position = UDim2.new(0, 0, 0.05, 0)
+            title.Size = UDim2.new(1, 0, 0.45, 0)
+            title.Font = Enum.Font.GothamBold
+            title.Text = "Fá´ÉªÊÊ Tá´ÉªÊ Usá´R"
+            title.TextColor3 = Color3.fromRGB(0, 80, 80)
+            title.TextScaled = true
+            title.TextXAlignment = Enum.TextXAlignment.Left
+            username = Instance.new("TextLabel")
+            username.Name = "Username"
+            username.Parent = infoBox
+            username.BackgroundTransparency = 1
+            username.Position = UDim2.new(0, 0, 0.5, 0)
+            username.Size = UDim2.new(1, 0, 0.4, 0)
+            username.Font = Enum.Font.SourceSansBold
+            username.Text = "@" .. af.Name
+            username.TextColor3 = Color3.fromRGB(255, 255, 255)
+            username.TextScaled = true
+            username.TextXAlignment = Enum.TextXAlignment.Left
+            ah = ae.RenderStepped:Connect(onRenderStepped3)
+            return
+        end
+    end
+end
+local ai
+local function connectEvents3(a)
+    local function onChildAdded(b)
+        if b.Name == "Head" then
+            task.wait(0.2)
+            ai(a)
+            return b
+        else
+            return
+        end
+    end
+    if a then
+        ai(a)
+        a.ChildAdded:Connect(onChildAdded)
+        return a
+    end
+end
+local aj
+local function transformValue20(a)
+    aj(a)
+    return a
+end
+local function performTask6()
+    aj(af.Character)
+end
+local ak
+local function newHandler()
+    local a = {
+        active = false,
+        target = nil,
+        connections = {},
+        animTrack = nil,
+        animId = nil,
+        freezeTime = nil,
+    }
+    a.offset = CFrame.new(0, 0, -5)
+    a.lookAtTarget = false
+    a.useHead = false
+    a.platformStand = false
+    a.antiCheatBypass = false
+    a.attachPart = nil
+    a.speed = 1
+    a.orbitAngle = 0
+    a.customUpdate = nil
+    return setmetatable(a, ak)
+end
+local function getTargetBodyHandler(a)
+    local character
+    if not a.target or not a.target.Character then
+        return nil
+    else
+        character = a.target.Character
+        if a.attachPart == "Head" then
+            return character:FindFirstChild("Head")
+        else
+            return character:FindFirstChild("HumanoidRootPart") or character:FindFirstChild("UpperTorso") or character:FindFirstChild("Torso")
+        end
+    end
+end
+local function getLocalRootHandler(a)
+    local character2 = af.Character
+    if character2 then
+        return character2:FindFirstChild("HumanoidRootPart")
+    end
+    return nil
+end
+local function getLocalHumanoidHandler(a)
+    local character3 = af.Character
+    if character3 then
+        return character3:FindFirstChildOfClass("Humanoid")
+    end
+    return nil
+end
+local function clearConnectionsHandler(a)
+    local b
+    local c = ipairs(b)
+    local pack = table.pack(c(b, 0))
+    local d = table.unpack(pack, 1, pack.n)
+    local e = {}
+    local f
+    if not (d == nil) then
+        f = d
+        while true do
+            if pack[2] then
+                pcall(pack[2].Disconnect, table.unpack(pack, 2, pack.n))
+                pack = table.pack(c(b, f))
+                d = table.unpack(pack, 1, pack.n)
+                if d == nil then
+                    f = d
+                else
+                    f = d
+                    continue
+                end
+            else
+                pack = table.pack(c(b, f))
+                d = table.unpack(pack, 1, pack.n)
+                if d == nil then
+                    break
+                else
+                    f = d
+                    continue
+                end
+            end
+            a.connections = e
+            return a, e, e, f, table.unpack(pack, 1, pack.n)
+        end
+    end
+    a.connections = e
+    return a, e, e, d, table.unpack(pack, 1, pack.n)
+end
+local al
+local function stopAnimHandler(a)
+    local function tryOperation12()
+        al.FallenPartsDestroyHeight = -500
+    end
+    local b, c, animTrack
+    if a.animTrack then
+        animTrack = a.animTrack
+        pcall(a.animTrack.Stop, animTrack)
+        a.animTrack = nil
+        b = af.Character
+        if b and b:FindFirstChild("Animate") then
+            b.Animate.Disabled = false
+        end
+        c = a:getLocalHumanoid()
+        if c and a.platformStand then
+            c.PlatformStand = false
+        end
+        if a.antiCheatBypass then
+            pcall(tryOperation12)
+            a.antiCheatBypass = false
+            return a, b, c
+        else
+            return a
+        end
+    else
+        b = af.Character
+        if b and b:FindFirstChild("Animate") then
+            b.Animate.Disabled = false
+        end
+        c = a:getLocalHumanoid()
+        if c and a.platformStand then
+            c.PlatformStand = false
+        end
+        if a.antiCheatBypass then
+            pcall(tryOperation12)
+            a.antiCheatBypass = false
+            return a, b, c
+        else
+            return
+        end
+    end
+end
+local function playAnimHandler(a, b, timePosition, c)
+    local function tryOperation11()
+        al.FallenPartsDestroyHeight = (0/0)
+    end
+    local getLocalHumanoid = a:getLocalHumanoid()
+    local character4, animation, action4
+    if getLocalHumanoid then
+        character4 = af.Character
+        if character4 and character4:FindFirstChild("Animate") then
+            character4.Animate.Disabled = true
+        end
+        animation = Instance.new("Animation")
+        animation.AnimationId = "rbxassetid://" .. b
+        a.animTrack = getLocalHumanoid:LoadAnimation(animation)
+        action4 = Enum.AnimationPriority.Action4
+        a.animTrack.Priority = action4
+        a.animTrack.Looped = true
+        a.animTrack:Play()
+        if timePosition then
+            a.animTrack.TimePosition = timePosition
+            a.animTrack:AdjustSpeed(c or 0)
+        elseif c then
+            a.animTrack:AdjustSpeed(c)
+        else
+            if a.platformStand then
+                getLocalHumanoid.PlatformStand = true
+            end
+            if a.antiCheatBypass then
+                pcall(tryOperation11)
+            end
+            return a, b, timePosition, c, getLocalHumanoid, character4, animation
+        end
+        if a.platformStand then
+            getLocalHumanoid.PlatformStand = true
+        end
+        if a.antiCheatBypass then
+            pcall(tryOperation11)
+        end
+        return a, b, timePosition, c, getLocalHumanoid, character4, animation
+    end
+end
+local function startHandler(a)
+    local function runProtected2()
+        local e, f
+        local function tryOperation10()
+            sethiddenproperty(f, "PhysicsRepRootPart", e)
+        end
+        f = a.active
+        e = not f
+        local getLocalHumanoid2, cFrame, g, vector3, x, h, z
+        if not e then
+            f = a
+            e = a:getTargetBody()
+            f = a:getLocalRoot()
+            getLocalHumanoid2 = a:getLocalHumanoid()
+            if not e or not e.Parent or not f then
+                a:stop()
+                return e, f, getLocalHumanoid2
+            else
+                cFrame = e.CFrame
+                g = cFrame * a.offset
+                if a.lookAtTarget then
+                    x = cFrame.Position.X
+                    h = g.Position.Y
+                    z = cFrame.Position.Z
+                    vector3 = Vector3.new(x, h, z)
+                    if 0.1 < (vector3 - g.Position).Magnitude then
+                        h = g.Position
+                        g = CFrame.lookAt(h, vector3)
+                    end
+                end
+                pcall(tryOperation10)
+                f.CFrame = g
+                f.AssemblyLinearVelocity = Vector3.zero
+                f.AssemblyAngularVelocity = Vector3.zero
+                f.RotVelocity = Vector3.zero
+                if getLocalHumanoid2 and a.platformStand then
+                    getLocalHumanoid2.Sit = true
+                    getLocalHumanoid2.PlatformStand = true
+                end
+                if a.freezeTime and a.animTrack then
+                    a.animTrack.TimePosition = a.freezeTime
+                    a.animTrack:Play()
+                    a.animTrack:AdjustSpeed(0)
+                    return e, f, getLocalHumanoid2, cFrame, g
+                end
+                return e, f, getLocalHumanoid2, cFrame, g
+            end
+        end
+    end
+    local b, c, d
+    if a.active then
+        return
+    else
+        a.active = true
+        b = runProtected2
+        c = a.connections
+        d = ae.PreSimulation
+        table.insert(c, d:Connect(runProtected2))
+        c = a.connections
+        d = ae.PostSimulation
+        table.insert(c, d:Connect(b))
+        c = a.connections
+        d = ae.RenderStepped
+        table.insert(c, d:Connect(b))
+        return a, b
+    end
+end
+local function stopHandler(a)
+    local b
+    local function performTask4()
+        sethiddenproperty(b, "PhysicsRepRootPart", nil)
+    end
+    b = not a.active
+    local getLocalHumanoid3
+    if not b then
+        a.active = false
+        b = a.clearConnections
+        b(a)
+        b = a.stopAnim
+        b(a)
+        b = a:getLocalRoot()
+        getLocalHumanoid3 = a:getLocalHumanoid()
+        if getLocalHumanoid3 then
+            getLocalHumanoid3.Sit = false
+            getLocalHumanoid3.PlatformStand = false
+            getLocalHumanoid3:SetStateEnabled(Enum.HumanoidStateType.Dead, true)
+            return a, b, getLocalHumanoid3
+        else
+            return a
+        end
+    end
+end
+local am
+local function createAnimation(a)
+    local character5 = af.Character
+    local humanoid, animator, animate, b, getPlayingAnimationTracks, c, d, e
+    if character5 then
+        humanoid = character5:FindFirstChild("Humanoid")
+        if humanoid then
+            humanoid:FindFirstChildOfClass("Animator")
+            animator = humanoid:WaitForChild("Animator")
+            animate = character5:FindFirstChild("Animate")
+            if animate then
+                animate.Disabled = true
+            end
+            b = next
+            getPlayingAnimationTracks = animator:GetPlayingAnimationTracks()
+            table.pack(next(getPlayingAnimationTracks, nil))
+            d = next(getPlayingAnimationTracks)
+            if not (d == nil) then
+                c = d
+                getPlayingAnimationTracks:Stop(0.1)
+                while true do
+                    e = table.pack(b(getPlayingAnimationTracks, c))
+                    d = table.unpack(e, 1, e.n)
+                    if d ~= nil then
+                        c = d
+                        e[2]:Stop(0.1)
+                        continue
+                    end
+                    break
+                end
+            end
+            b = Instance.new("Animation")
+            b.AnimationId = "rbxassetid://" .. a
+            if am then
+                am:Stop(0.1)
+                am = animator:LoadAnimation(b)
+                am.Priority = Enum.AnimationPriority.Action4
+                am.Looped = true
+                am:Play()
+                return a, character5, humanoid, animator, animate, b
+            else
+                d = b
+            end
+            am = animator:LoadAnimation(d)
+            am.Priority = Enum.AnimationPriority.Action4
+            am.Looped = true
+            am:Play()
+            return a, character5, humanoid, animator, animate, b
+        end
+    end
+end
+local function updateState5()
+    local animate2
+    if am then
+        am:Stop(0.1)
+        am = nil
+        animate2 = af.Character:FindFirstChild("Animate")
+        if animate2 then
+            animate2.Disabled = false
+        end
+    end
+end
+local an, ao, ap, aq
+local function updateState6()
+    ao = ao % 3 + 1
+    if ao == 1 then
+        ap("113083314851722")
+        an("Fá´ÉªÊÊ Tá´ÉªÊ", "AÉ´Éªá´á´á´Éªá´É´ 1 Sá´á´Êá´á´á´! ð­", 2)
+    else
+        aq()
+        an("Fá´ÉªÊÊ Tá´ÉªÊ", "AÉ´Éªá´á´á´Éªá´É´ Sá´á´á´á´á´á´! ð", 2)
+    end
+end
+local function createAnimation2(a)
+    local function tryOperation9()
+        return game:GetObjects("rbxassetid://121803583995185")
+    end
+    local character6 = af.Character
+    local humanoid2, animator2, animate3, b, c, d, e, f
+    if character6 then
+        humanoid2 = character6:FindFirstChild("Humanoid")
+        if humanoid2 then
+            humanoid2:FindFirstChildOfClass("Animator")
+            animator2 = humanoid2:WaitForChild("Animator")
+            animate3 = character6:FindFirstChild("Animate")
+            if a then
+                if animate3 then
+                    animate3.Disabled = true
+                end
+                animator2:GetPlayingAnimationTracks()
+                b = pairs(c)
+                f = table.pack(b(c, nil))
+                e = table.unpack(f, 1, f.n)
+                if not (e == nil) then
+                    d = e
+                    while true do
+                        f[2]:Stop(0.1)
+                        f = table.pack(b(c, d))
+                        e = table.unpack(f, 1, f.n)
+                        if e ~= nil then
+                            d = e
+                            continue
+                        end
+                        break
+                    end
+                end
+                c = tryOperation9
+                f = table.pack(pcall(tryOperation9))
+                b = table.unpack(f, 1, f.n)
+                e = b
+                if e then
+                    c = table.unpack(f, 2, f.n)
+                    e = c[1]
+                end
+                if e then
+                    c = table.unpack(f, 2, f.n)
+                    e = c[1]:IsA("Animation")
+                end
+                if e then
+                    c = table.unpack(f, 2, f.n)
+                    d = c[1]
+                else
+                    d = Instance.new("Animation")
+                    d.AnimationId = "rbxassetid://121803583995185"
+                end
+                am = animator2:LoadAnimation(d)
+                am.Priority = Enum.AnimationPriority.Action4
+                am.Looped = true
+                am:Play()
+                return a, character6, humanoid2, animator2, animate3, b, c, d
+            elseif am then
+                am:Stop(0.1)
+                am = nil
+                if animate3 then
+                    animate3.Disabled = false
+                end
+                return a, character6, humanoid2, animator2, animate3
+            else
+                if animate3 then
+                    animate3.Disabled = false
+                end
+                return
+            end
+        end
+    end
+end
+local function createSound(a)
+    local sound
+    local function backgroundTask10()
+        sound.Ended:Wait()
+        sound:Destroy()
+    end
+    sound = Instance.new("Sound", al)
+    sound.SoundId = "rbxassetid://" .. (a or "5852470908")
+    sound.Volume = 2
+    sound:Play()
+    task.spawn(backgroundTask10)
+    return a, sound
+end
+local ar
+local function connectEvents4(a)
+    local b, c, d
+    local function onInputBegan(f)
+        local mouseButton1 = Enum.UserInputType.MouseButton1
+        if f.UserInputType == mouseButton1 then
+            b = true
+            c = f.Position
+            d = a.Position
+        end
+    end
+    local e
+    local function onInputChanged(f)
+        local mouseMovement = Enum.UserInputType.MouseMovement
+        if f.UserInputType == mouseMovement then
+            e = f
+        end
+    end
+    local function onRenderStepped2()
+        local f, scale, g, scale2, h
+        if b and e then
+            f = e.Position - c
+            scale = d.X.Scale
+            h = f.X
+            g = d.X.Offset + h
+            scale2 = d.Y.Scale
+            h = d.Y.Offset + f.Y
+            a.Position = UDim2.new(scale, g, scale2, h)
+        end
+    end
+    local function onInputEnded(f)
+        local mouseButton12 = Enum.UserInputType.MouseButton1
+        if f.UserInputType == mouseButton12 then
+            b = false
+        end
+    end
+    b = nil
+    e = nil
+    c = nil
+    d = nil
+    a.InputBegan:Connect(onInputBegan)
+    a.InputChanged:Connect(onInputChanged)
+    ae.RenderStepped:Connect(onRenderStepped2)
+    ar.InputEnded:Connect(onInputEnded)
+    return a, nil, nil, nil, nil
+end
+local function getHumanoidRootPart2()
+    local character7 = af.Character
+    local humanoidRootPart
+    if character7 then
+        character7:FindFirstChild("Humanoid")
+        humanoidRootPart = character7:FindFirstChild("HumanoidRootPart")
+        if humanoidRootPart then
+            humanoidRootPart.Velocity = Vector3.new(0, 0, 0)
+            humanoidRootPart.RotVelocity = Vector3.new(0, 0, 0)
+            humanoidRootPart.AssemblyLinearVelocity = Vector3.new(0, 0, 0)
+            humanoidRootPart.AssemblyAngularVelocity = Vector3.new(0, 0, 0)
+        end
+        return
+    end
+end
+local as
+local function getHumanoidRootPart3(cFrame)
+    local character8 = af.Character
+    local a = character8
+    if character8 then
+        a = character8:FindFirstChild("HumanoidRootPart")
+    end
+    if a then
+        as()
+        a.CFrame = cFrame
+        return cFrame, character8, a
+    else
+        return
+    end
+end
+local at
+local function processItems2()
+    local character9 = af.Character
+    local humanoid3, a, getPlayingAnimationTracks2, b, c, d
+    if character9 then
+        humanoid3 = character9:FindFirstChild("Humanoid")
+        if humanoid3 then
+            a = next
+            getPlayingAnimationTracks2 = humanoid3:GetPlayingAnimationTracks()
+            d = table.pack(next(getPlayingAnimationTracks2, nil))
+            c = next(getPlayingAnimationTracks2)
+            if c == nil then
+                local e = {}
+                at = e
+                return character9, humanoid3, e, e, c, table.unpack(d, 1, d.n)
+            else
+                b = c
+                getPlayingAnimationTracks2:Stop()
+                while true do
+                    d = table.pack(a(getPlayingAnimationTracks2, b))
+                    c = next(getPlayingAnimationTracks2)
+                    if c ~= nil then
+                        b = c
+                        table.unpack(d, 2, d.n):Stop()
+                        continue
+                    end
+                    break
+                end
+                local f = {}
+                at = f
+                return character9, humanoid3, f, f, c, table.unpack(d, 1, d.n)
+            end
+        end
+    end
+end
+local function computeValue3(a, b)
+    local animationId = a.Animation.AnimationId
+    local animation2, loadAnimation
+    if not animationId or animationId == "" then
+        return nil
+    else
+        animation2 = Instance.new("Animation")
+        animation2.AnimationId = animationId
+        loadAnimation = b:LoadAnimation(animation2)
+        loadAnimation.Priority = Enum.AnimationPriority.Action4
+        loadAnimation.TimePosition = a.TimePosition
+        if a.Speed and a.Speed ~= 1 then
+            loadAnimation:AdjustSpeed(a.Speed)
+        end
+        return loadAnimation
+    end
+end
+local au, av, aw, ax
+local function processItems3()
+    local a = au
+    local b, c, humanoid4, humanoid5, d, e, f, g, h, i, insert, j
+    if a then
+        b = a.Character
+        c = af.Character
+        if not (not b or not c) then
+            humanoid4 = b:FindFirstChild("Humanoid")
+            humanoid5 = c:FindFirstChild("Humanoid")
+            if not (not humanoid4 or not humanoid5) then
+                aw()
+                av = {}
+                at = {}
+                humanoid4:GetPlayingAnimationTracks()
+                d = pairs(e)
+                j = table.pack(d(e, nil))
+                g = table.unpack(j, 1, j.n)
+                if not (g == nil) then
+                    f = g
+                    local k = {}
+                    while true do
+                        if 0.1 < j[2].WeightCurrent then
+                            h = table.unpack(j, 2, j.n)
+                            i = ax(h, humanoid5)
+                            if i then
+                                i:Play()
+                                table.insert(at, i)
+                                insert = table.insert
+                                k.targetTrack = h
+                                k.myTrack = i
+                                k.animId = h.Animation.AnimationId
+                                insert(av, k)
+                                j = table.pack(d(e, f))
+                                g = table.unpack(j, 1, j.n)
+                                if g == nil then
+                                    f = g
+                                else
+                                    f = g
+                                    continue
+                                end
+                            else
+                                j = table.pack(d(e, f))
+                                g = table.unpack(j, 1, j.n)
+                                if g == nil then
+                                    break
+                                else
+                                    f = g
+                                    continue
+                                end
+                            end
+                        else
+                            j = table.pack(d(e, f))
+                            g = table.unpack(j, 1, j.n)
+                            if g == nil then
+                                break
+                            else
+                                f = g
+                                continue
+                            end
+                        end
+                        return a, b, c, humanoid4, humanoid5, d, e, f, table.unpack(j, 1, j.n)
+                    end
+                end
+                return a, b, c, humanoid4, humanoid5, d, e, g, table.unpack(j, 1, j.n)
+            end
+        end
+    end
+end
+local ay
+local function processItems4()
+    local a, b, c, d, humanoid6, e, f, g, h, i, j, k, l, m, n, o, p, q, r, animId, s
+    do
+        local t = {}
+        do
+            repeat
+                local shouldExit = false
+                if ay then
+                    a = au
+                    if a then
+                        b = a.Character
+                        c = af.Character
+                        d = not b or not c
+                        if not d then
+                            d = b:FindFirstChild("Humanoid")
+                            humanoid6 = c:FindFirstChild("Humanoid")
+                            e = not d or not humanoid6
+                            if not e then
+                                local u = {}
+                                e = u
+                                local v = {}
+                                f = v
+                                g = next
+                                h = d:GetPlayingAnimationTracks()
+                                s = table.pack(next(h, nil))
+                                j = next(h)
+                                if j == nil then
+                                    i = j
+                                    j = av
+                                    g = #av
+                                else
+                                    i = j
+                                    l = h.WeightCurrent
+                                    m = 0.1
+                                    if 0.1 < l then
+                                        l = s[2].Animation.AnimationId
+                                        m = l
+                                        if m then
+                                            n = ""
+                                            m = l ~= ""
+                                        end
+                                        if m then
+                                            e[l] = true
+                                            m = table.insert
+                                            n = f
+                                            k = table.unpack(s, 2, s.n)
+                                            o = k
+                                            m(n, k)
+                                            local __cont1 = false
+                                            while true do
+                                                s = table.pack(g(h, i))
+                                                j = table.unpack(s, 1, s.n)
+                                                if j == nil then
+                                                    i = j
+                                                else
+                                                    i = j
+                                                    while true do
+                                                        k = table.unpack(s, 2, s.n)
+                                                        l = k.WeightCurrent
+                                                        m = 0.1
+                                                        if 0.1 < l then
+                                                            k = table.unpack(s, 2, s.n)
+                                                            l = k.Animation.AnimationId
+                                                            m = l
+                                                            if m then
+                                                                n = ""
+                                                                m = l ~= ""
+                                                            end
+                                                            if m then
+                                                                e[l] = true
+                                                                m = table.insert
+                                                                n = f
+                                                                k = table.unpack(s, 2, s.n)
+                                                                o = k
+                                                                m(n, k)
+                                                                __cont1 = true
+                                                                break
+                                                            else
+                                                                s = table.pack(g(h, i))
+                                                                j = table.unpack(s, 1, s.n)
+                                                                if j == nil then
+                                                                    break
+                                                                else
+                                                                    i = j
+                                                                end
+                                                            end
+                                                        else
+                                                            goto __x2
+                                                        end
+                                                    end
+                                                    if __cont1 then
+                                                        __cont1 = false
+                                                        continue
+                                                    end
+                                                    break
+                                                end
+                                                j = av
+                                                g = #av
+                                                if 1 <= g then
+                                                    goto __x18
+                                                else
+                                                    goto __x17
+                                                end
+                                            end
+                                            i = j
+                                            break
+                                        else
+                                            k = h
+                                            i = next
+                                            if i == nil then
+                                                j = av
+                                                g = #av
+                                            else
+                                                l = k.Animation.AnimationId
+                                                m = l
+                                                s = table.pack(g(h, i))
+                                                j = table.unpack(s, 1, s.n)
+                                                i = j
+                                                while true do
+                                                    k = table.unpack(s, 2, s.n)
+                                                    l = k.WeightCurrent
+                                                    m = 0.1
+                                                    if 0.1 < l then
+                                                        k = table.unpack(s, 2, s.n)
+                                                        l = k.Animation.AnimationId
+                                                        m = l
+                                                        if m then
+                                                            n = ""
+                                                            m = l ~= ""
+                                                        end
+                                                        if m then
+                                                            e[l] = true
+                                                            m = table.insert
+                                                            n = f
+                                                            k = table.unpack(s, 2, s.n)
+                                                            o = k
+                                                            m(n, k)
+                                                            s = table.pack(g(h, i))
+                                                            j = table.unpack(s, 1, s.n)
+                                                            if j == nil then
+                                                                i = j
+                                                                shouldExit = true
+                                                                break
+                                                            else
+                                                                i = j
+                                                            end
+                                                        else
+                                                            s = table.pack(g(h, i))
+                                                            j = table.unpack(s, 1, s.n)
+                                                            if j == nil then
+                                                                break
+                                                            else
+                                                                i = j
+                                                            end
+                                                        end
+                                                    else
+                                                        goto __x8
+                                                    end
+                                                end
+                                                if shouldExit then
+                                                    break
+                                                end
+                                                i = j
+                                                break
+                                            end
+                                        end
+                                    else
+                                        j = next
+                                        k = h
+                                        i = next
+                                        if i == nil then
+                                            j = av
+                                            g = #av
+                                            goto __x28
+                                        else
+                                            m = j.animId
+                                            l = e[m]
+                                            k = not l
+                                            if k then
+                                                k = l.remove
+                                                l = av
+                                                m = g
+                                                p = at
+                                                q = n
+                                                o(p, q)
+                                                j = next(h)
+                                                i = j
+                                                goto __x20
+                                            end
+                                            g = g + i
+                                            if 0 < i then
+                                                if g + i <= h then
+                                                    goto __x15
+                                                end
+                                            elseif h <= g + i then
+                                                goto __x15
+                                            end
+                                            goto __x75
+                                        end
+                                    end
+                                end
+                                if 1 <= g then
+                                    goto __x18
+                                else
+                                    goto __x17
+                                end
+                            end
+                        end
+                    end
+                end
+                ::__x2::
+                s = table.pack(g(h, i))
+                j = table.unpack(s, 1, s.n)
+                if j == nil then
+                    i = j
+                else
+                    i = j
+                    if m < l then
+                        k = table.unpack(s, 2, s.n)
+                        l = k.Animation.AnimationId
+                        m = l
+                        g = g + i
+                        if 0 < i then
+                            if g + i <= h then
+                                goto __x15
+                            end
+                        elseif h <= g + i then
+                            goto __x15
+                        end
+                        goto __x75
+                    else
+                        goto __x2
+                    end
+                end
+            until true
+            j = av
+            g = #av
+            goto __x28
+            ::__x8::
+            s = table.pack(g(h, i))
+            j = table.unpack(s, 1, s.n)
+            if j == nil then
+                i = j
+                j = av
+                g = #av
+                goto __x28
+            else
+                i = j
+                goto __x47
+            end
+            ::__x15::
+            j = av[g]
+            m = j.animId
+            l = e[m]
+            k = not l
+            if k then
+                k = j.myTrack
+                o(p, q)
+                p = table
+                o = p.insert
+                p = at
+                q = n
+                o(p, q)
+                j = next(h)
+                if j ~= nil then
+                    i = j
+                    goto __x20
+                end
+                return a, b, c, d, humanoid6, e, f, g, h, j, table.unpack(s, 1, s.n)
+            end
+            g = g + i
+            if 0 < i then
+                if g + i <= h then
+                    goto __x15
+                end
+            elseif h <= g + i then
+                goto __x15
+            end
+            goto __x75
+            ::__x17::
+            h = f
+            g = next
+            i = nil
+            goto __x51
+            ::__x18::
+            j = av[g]
+            m = j.animId
+            l = e[m]
+            k = not l
+            if k then
+                k = j.myTrack
+                r = table.unpack(s, 2, s.n)
+                animId = r.animId
+                if animId == l then
+                    s = table.pack(n(o, p))
+                    q = table.unpack(s, 1, s.n)
+                    if q == nil then
+                        p = q
+                        goto __x19
+                    end
+                    p = q
+                end
+                if m then
+                    e[l] = true
+                    n = table
+                    l = av
+                    m = g
+                    k(l, m)
+                    g = g + i
+                    if 0 < i then
+                        if g + i <= h then
+                            goto __x15
+                        end
+                    elseif h <= g + i then
+                        goto __x15
+                    end
+                    goto __x75
+                end
+                if m then
+                    m = true
+                    e[l] = true
+                    n = table
+                end
+                if not m then
+                    s = table.pack(g(h, i))
+                    j = table.unpack(s, 1, s.n)
+                    if j == nil then
+                        i = j
+                        j = av
+                        g = #av
+                        goto __x28
+                    else
+                        i = j
+                        goto __x47
+                    end
+                end
+                l = av
+                o = p.insert
+                p = at
+                q = n
+                o(p, q)
+                j = next(h)
+                if j ~= nil then
+                    i = j
+                    goto __x20
+                end
+                return a, b, c, d, humanoid6, e, f, g, h, j, table.unpack(s, 1, s.n)
+            else
+                g = g + i
+                if 0 < i then
+                    if g + i <= h then
+                        goto __x18
+                    else
+                        goto __x17
+                    end
+                elseif h > g + i then
+                    goto __x17
+                else
+                    goto __x18
+                end
+            end
+            ::__x19::
+            n = not m
+            if not n then
+                s = table.pack(g(h, i))
+                j = table.unpack(s, 1, s.n)
+                if j ~= nil then
+                    i = j
+                    goto __x79
+                end
+                return a, b, c, d, humanoid6, e, f, g, h, j, table.unpack(s, 1, s.n)
+            end
+            o = k
+            p = humanoid6
+            n = ax(o, humanoid6)
+            if not n then
+                s = table.pack(g(h, i))
+                j = table.unpack(s, 1, s.n)
+                if j ~= nil then
+                    i = j
+                    goto __x79
+                end
+                return a, b, c, d, humanoid6, e, f, g, h, j, table.unpack(s, 1, s.n)
+            end
+            p = n
+            while true do
+                o(p)
+                o = table.insert
+                p = av
+                q = t
+                q.targetTrack = k
+                q.myTrack = n
+                continue
+            end
+            ::__x20::
+            k = table.unpack(s, 2, s.n)
+            l = k.Animation.AnimationId
+            m = false
+            n = next
+            o = av
+            p = nil
+            goto __x83
+            ::__x28::
+            h = 1
+            i = -1
+            if 0 < i then
+                if g > h then
+                    goto __x17
+                else
+                    goto __x18
+                end
+            elseif h <= g then
+                goto __x18
+            else
+                goto __x17
+            end
+            ::__x47::
+            k = table.unpack(s, 2, s.n)
+            l = k.WeightCurrent
+            m = 0.1
+            if m < l then
+                k = table.unpack(s, 2, s.n)
+                m = false
+                n = pairs
+                goto __x83
+            else
+                goto __x8
+            end
+            ::__x51::
+            s = table.pack(g(h, i))
+            j = table.unpack(s, 1, s.n)
+            if j == nil then
+                return a, b, c, d, humanoid6, e, f, g, h, j, table.unpack(s, 1, s.n)
+            else
+                i = j
+                goto __x79
+            end
+            ::__x75::
+            h = f
+            g = next
+            i = nil
+            goto __x51
+            ::__x79::
+            k = table.unpack(s, 2, s.n)
+            m = k.Animation
+            l = m.AnimationId
+            ::__x83::
+            s = table.pack(n(o, p))
+            q = table.unpack(s, 1, s.n)
+            if q == nil then
+                p = q
+                goto __x19
+            end
+        end
+        p = q
+    end
+end
+local az, ba
+local function updateState7()
+    if az then
+        az:Disconnect()
+    end
+    az = ae.RenderStepped:Connect(ba)
+end
+local function disconnect(...)
+    if az then
+        az:Disconnect()
+        ay = false
+        au = nil
+        aw(select(2, ...))
+    else
+        ay = false
+        au = nil
+        aw()
+    end
+    av = {}
+end
+local bb, bc
+local function updateState8()
+    bb = false
+    bc = nil
+end
+local bd
+local function customUpdateHandler(a, b, c)
+    local function tryOperation8()
+        sethiddenproperty(b, "PhysicsRepRootPart", a)
+    end
+    local d, e, f, g, h, pi
+    if not (not a or not b) then
+        d = os.clock() - (bd._startTime or os.clock())
+        e = math.sin(d * 25) * 0.8
+        f = 1.2 + e
+        h = a.CFrame * CFrame.new(0, 0, -f)
+        pi = math.pi
+        g = h * CFrame.Angles(0, pi, 0)
+        pcall(tryOperation8)
+        b.CFrame = g
+        b.AssemblyLinearVelocity = Vector3.zero
+        if bd.animTrack then
+            bd.animTrack.TimePosition = 0.829
+        end
+        return a, b, c, d, e, f, g
+    end
+end
+local be
+local function customUpdateHandler2(a, b, c)
+    local function tryOperation7()
+        sethiddenproperty(b, "PhysicsRepRootPart", a)
+    end
+    local d, e, f, cFrame2, g, h, i, position
+    if not (not a or not b) then
+        d = os.clock() - (be._startTime or os.clock())
+        e = math.sin(d * 12.5) * 0.4
+        f = 4 + e
+        cFrame2 = a.CFrame
+        i = cFrame2.LookVector * f
+        g = cFrame2.Position + i + Vector3.new(0, 0.3, 0)
+        position = cFrame2.Position
+        h = CFrame.lookAt(g, position) * CFrame.Angles(1718.8733853924696, 0, 0)
+        pcall(tryOperation7)
+        b.CFrame = h
+        b.AssemblyLinearVelocity = Vector3.zero
+        if c then
+            c.PlatformStand = true
+        end
+        if be.animTrack then
+            be.animTrack.TimePosition = 3.4
+        end
+        return a, b, c, d, e, f, cFrame2, g, h
+    end
+end
+local bf
+local function customUpdateHandler3(a, b, c)
+    local function tryOperation6()
+        sethiddenproperty(b, "PhysicsRepRootPart", a)
+    end
+    local d, e, f, g
+    if not (not a or not b) then
+        d = os.clock() - (bf._startTime or os.clock())
+        e = math.sin(d * 12.5) * 0.9
+        f = 2 + e
+        g = a.CFrame * CFrame.new(0, 1.3, -f)
+        pcall(tryOperation6)
+        b.CFrame = g
+        b.AssemblyLinearVelocity = Vector3.zero
+        if bf.animTrack then
+            bf.animTrack.TimePosition = 1.792
+        end
+        return a, b, c, d, e, f, g
+    end
+end
+local bg
+local function customUpdateHandler4(a, b, c)
+    local function tryOperation5()
+        sethiddenproperty(b, "PhysicsRepRootPart", a)
+    end
+    local d, e, f, g, h, pi2
+    if not (not a or not b) then
+        d = os.clock() - (bg._startTime or os.clock())
+        e = (math.sin(d * 12) + 1) / 2
+        f = 2.25 + e * 1.0499999999999998
+        h = a.CFrame * CFrame.new(0, 3.3, -f)
+        pi2 = math.pi
+        g = h * CFrame.Angles(0, pi2, 0)
+        pcall(tryOperation5)
+        b.CFrame = g
+        b.AssemblyLinearVelocity = Vector3.zero
+        if c then
+            c.Sit = true
+        end
+        if bg.animTrack then
+            bg.animTrack.TimePosition = 0.729
+        end
+        return a, b, c, d, e, f, g
+    end
+end
+local bh
+local function customUpdateHandler5(a, b, c)
+    local function tryOperation4()
+        sethiddenproperty(b, "PhysicsRepRootPart", a)
+    end
+    local d, e, f, vector32, g, lookAt, position2, position3
+    if not (not a or not b) then
+        d = ae.Heartbeat:Wait()
+        bh.orbitAngle = (bh.orbitAngle or 0) + d * 1.5
+        e = math.sin(bh.orbitAngle) * 8
+        f = math.cos(bh.orbitAngle) * 8
+        vector32 = Vector3.new(e, 0, f)
+        g = a.CFrame * CFrame.new(vector32)
+        position2 = g.Position
+        position3 = a.Position
+        lookAt = CFrame.lookAt(position2, position3)
+        pcall(tryOperation4)
+        b.CFrame = lookAt
+        b.AssemblyLinearVelocity = Vector3.zero
+        return a, b, c, d, e, f, vector32, g, lookAt
+    end
+end
+local function performTask7()
+    if _G.InfJump and af.Character and af.Character:FindFirstChild("Humanoid") then
+        af.Character.Humanoid:ChangeState(Enum.HumanoidStateType.Jumping)
+    end
+end
+local players, bi, bj, bk, bl, bm, bn, bo, bp, bq, br, bs, bt, bu, bv, bw, bx, by, bz, ca, cb, cc, cd, ce, cf, cg, ch, ci, cj
+local function computeValue4(...)
+    local a
+    local function createScrollingFrame()
+        local scrollingFrame = Instance.new("ScrollingFrame", a)
+        scrollingFrame.Size = UDim2.new(1, 0, 1, 0)
+        scrollingFrame.BackgroundTransparency = 1
+        scrollingFrame.Visible = false
+        scrollingFrame.ScrollBarThickness = 2
+        scrollingFrame.CanvasSize = UDim2.new(0, 0, 6, 0)
+        scrollingFrame.ScrollBarImageColor3 = bp
+        local uIGridLayout3 = Instance.new("UIGridLayout", scrollingFrame)
+        uIGridLayout3.CellSize = UDim2.new(0.47, 0, 0, 32)
+        uIGridLayout3.CellPadding = UDim2.new(0.04, 0, 0.02, 0)
+        return scrollingFrame
+    end
+    local b, c
+    local function connectEvents(text, t)
+        local textButton
+        local function onMouseButton1Click2()
+            bs("5852470908")
+            a:GetChildren()
+            local u
+            local t121_0Value1, t121_0Value2 = pairs(u)(u, nil)
+            local w, x, y, z
+            repeat
+                local shouldExit = false
+                if not (t121_0Value1 == nil) then
+                    while true do
+                        t121_0Value2.Visible = false
+                        y = u
+                        if next == nil then
+                            t.Visible = true
+                            pairs(c:GetChildren())
+                        else
+                            y.Visible = false
+                            if w(u, x) == nil then
+                                break
+                            else
+                                continue
+                            end
+                        end
+                        shouldExit = true
+                        break
+                    end
+                    if shouldExit then
+                        break
+                    end
+                end
+                t.Visible = true
+                u = c:GetChildren()
+            until true
+            table.unpack(z, 1, z.n)
+            u = table.unpack(z, 2, z.n)
+            table.unpack(z, 3, z.n)
+            for k, v in pairs, u do
+                if v:IsA("TextButton") then
+                    v.TextColor3 = br
+                end
+            end
+            textButton.TextColor3 = bp
+            b.Color = bp
+            return b, bp, nil, nil
+        end
+        textButton = Instance.new("TextButton", c)
+        textButton.Size = UDim2.new(1, 0, 0, 30)
+        textButton.BackgroundColor3 = Color3.fromRGB(15, 15, 15)
+        textButton.Text = text
+        textButton.TextColor3 = br
+        textButton.Font = Enum.Font.GothamBold
+        textButton.TextSize = 10
+        Instance.new("UICorner", textButton)
+        textButton.MouseButton1Click:Connect(onMouseButton1Click2)
+        return text, t, textButton
+    end
+    local d
+    local function processItems()
+        local lower = d.Text:lower()
+        local getPlayers
+        if not (lower == "") then
+            getPlayers = players:GetPlayers()
+            if not (next(getPlayers) == nil) then
+                while true do
+                    if not (getPlayers ~= af and select(2, next(getPlayers, nil)).Name:lower():find(lower)) then
+                        if next(getPlayers) ~= nil then
+                            continue
+                        end
+                        break
+                    end
+                    return select(2, next(getPlayers, nil))
+                end
+            end
+        end
+        return nil
+    end
+    local e, f, g
+    local function onTextChanged()
+        local t = g()
+        if t then
+            e = t.Name
+            f = t.UserId
+        elseif d.Text == "" then
+            e = ""
+            f = nil
+        end
+    end
+    local function onPlayerRemoving(t)
+        if e ~= "" and f and t.UserId == f then
+            an("â ï¸ Tá´ÊÉ¢á´á´ TÊá´á´á´á´Ê", "Tá´ÊÉ¢á´á´ '" .. e .. "' Há´s Lá´Òá´ TÊá´ Sá´Rá´ á´R! â", 5)
+            return t
+        else
+            return
+        end
+    end
+    local function onPlayerAdded(t)
+        if e ~= "" and t.Name:lower():find(e:lower()) then
+            f = t.UserId
+            an("ð¯ Tá´ÊÉ¢á´á´ Tá´ÊÉ¢á´á´", "Tá´ÊÉ¢á´á´ '" .. t.Name .. "' Já´ÉªÉ´á´á´ Bá´á´á´ TÊá´ Sá´Rá´ á´R! ð¢", 5)
+            return t
+        else
+            return
+        end
+    end
+    local h
+    local function connectEvents2(text, t, u, v)
+        local textButton2
+        local function onMouseButton1Click()
+            bs("5852470908")
+            if t == h and text ~= "ð Sá´á´á´ AÊÊ" then
+                an("â Aá´á´á´ss Dá´É´Éªá´á´", "FÉªÊsá´ Sá´Êá´á´á´ Tá´ÊÉ¢á´á´ð¯...", 2)
+                return
+            end
+            if not v then
+                textButton2:SetAttribute("T", not textButton2:GetAttribute("T"))
+                textButton2.BackgroundColor3 = textButton2:GetAttribute("T") and bp or br
+                textButton2.TextColor3 = textButton2:GetAttribute("T") and br or bq
+            end
+            u(textButton2)
+        end
+        textButton2 = Instance.new("TextButton", t)
+        local w = v
+        if v then
+            w = bp
+        end
+        if not w then
+            w = br
+        end
+        textButton2.BackgroundColor3 = w
+        textButton2.Text = text
+        w = v
+        if v then
+            w = br
+        end
+        if not w then
+            w = bq
+        end
+        textButton2.TextColor3 = w
+        textButton2.Font = Enum.Font.GothamBold
+        textButton2.TextSize = 8.5
+        Instance.new("UICorner", textButton2)
+        textButton2.MouseButton1Click:Connect(onMouseButton1Click)
+        return text, t, u, v, textButton2
+    end
+    local function onMouseButton1Click3()
+        bs("5852470908")
+        ag = not ag
+        if ag then
+            an("Fá´ÉªÊÊ Tá´ÉªÊ", "Tá´É¢ Tá´ÊÉ´á´á´ OÉ´ â", 2)
+        else
+            an("Fá´ÉªÊÊ Tá´ÉªÊ", "Tá´É¢ Tá´ÊÉ´á´á´ OÒÒ â", 2)
+        end
+    end
+    local function findChild(...)
+        _G.Loop = false
+        _G.Fly = false
+        af.Character.Humanoid.Sit = false
+        _G.InfJump = false
+        _G.StrongView = false
+        _G.TargetESP = false
+        _G.TargetLook = false
+        local t = af.Character
+        al.CurrentCamera.CameraSubject = t:FindFirstChild("Humanoid")
+        bx()
+        by(select(2, ...))
+        local u = pairs(bz)
+        t = bz
+        local v = table.pack(u(t, nil))
+        local w = table.unpack(v, 1, v.n)
+        local x
+        if not (w == nil) then
+            x = w
+            while true do
+                if v[2] and v[2].stop then
+                    table.unpack(v, 2, v.n):stop()
+                    v = table.pack(u(t, x))
+                    w = table.unpack(v, 1, v.n)
+                    if not (w == nil) then
+                        x = w
+                        continue
+                    end
+                else
+                    v = table.pack(u(t, x))
+                    w = table.unpack(v, 1, v.n)
+                    if w == nil then
+                        break
+                    else
+                        x = w
+                        continue
+                    end
+                end
+                break
+            end
+        end
+        bn(false)
+        aq(select(2, ...))
+        ao = 0
+    end
+    local function getHumanoidRootPart()
+        local t = g()
+        local u = t
+        if t then
+            u = t.Character
+        end
+        if u then
+            u = t.Character:FindFirstChild("HumanoidRootPart")
+        end
+        if u then
+            bu(t.Character.HumanoidRootPart.CFrame * CFrame.new(0, 0, 2))
+            return t
+        else
+            return
+        end
+    end
+    local function getAttribute(t)
+        local function backgroundTask6()
+            local u, v
+            if _G.StrongView then
+                u = g()
+                if u and u.Character and u.Character:FindFirstChild("Humanoid") then
+                    v = u.Character.Humanoid
+                    if al.CurrentCamera.CameraSubject ~= v then
+                        v = u.Character.Humanoid
+                        al.CurrentCamera.CameraSubject = v
+                    end
+                end
+                task.wait(0.01)
+                while true do
+                    if _G.StrongView then
+                        u = g()
+                        if u and u.Character and u.Character:FindFirstChild("Humanoid") then
+                            v = u.Character.Humanoid
+                            if al.CurrentCamera.CameraSubject ~= v then
+                                v = u.Character.Humanoid
+                                al.CurrentCamera.CameraSubject = v
+                            end
+                        end
+                        task.wait(0.01)
+                        continue
+                    end
+                    break
+                end
+                af.Character:FindFirstChild("Humanoid")
+                u = al.CurrentCamera
+                u.CameraSubject = af.Character.Humanoid
+                return u
+            else
+                return
+            end
+        end
+        _G.StrongView = t:GetAttribute("T")
+        task.spawn(backgroundTask6)
+        return t
+    end
+    local function getAttribute2(t)
+        local function backgroundTask5(...)
+            local u, v
+            local function destroy()
+                if u then
+                    u:Destroy()
+                    u = nil
+                    v:Destroy()
+                    v = nil
+                end
+            end
+            u = nil
+            v = nil
+            local w = destroy
+            local x, y, z, cn
+            if _G.TargetESP then
+                x = g()
+                if x and x.Character then
+                    w()
+                    u = Instance.new("Highlight")
+                    u.FillColor = bp
+                    u.FillTransparency = 0.6
+                    u.OutlineColor = bp
+                    u.OutlineTransparency = 0
+                    u.Parent = x.Character
+                    y = x.Character:FindFirstChild("Head")
+                    if y then
+                        v = Instance.new("BillboardGui")
+                        v.Size = UDim2.new(0, 100, 0, 30)
+                        v.AlwaysOnTop = true
+                        v.StudsOffset = Vector3.new(0, 2, 0)
+                        z = Instance.new("TextLabel", v)
+                        z.Size = UDim2.new(1, 0, 1, 0)
+                        z.BackgroundTransparency = 1
+                        z.Text = "Tá´ÊÉ¢á´á´"
+                        z.TextColor3 = bp
+                        z.TextSize = 16
+                        z.Font = Enum.Font.GothamBlack
+                        cn = Instance.new("UIStroke", z)
+                        cn.Thickness = 3
+                        cn.Color = Color3.fromRGB(0, 0, 0)
+                        v.Parent = y
+                    end
+                else
+                    w()
+                end
+                task.wait(0.01)
+                while true do
+                    if _G.TargetESP then
+                        x = g()
+                        if x and x.Character then
+                            w(select(2, ...))
+                            u = Instance.new("Highlight")
+                            u.FillColor = bp
+                            u.FillTransparency = 0.6
+                            u.OutlineColor = bp
+                            u.OutlineTransparency = 0
+                            u.Parent = x.Character
+                            y = x.Character:FindFirstChild("Head")
+                            if y and not v then
+                                if v then
+                                    v:Destroy()
+                                end
+                                v = Instance.new("BillboardGui")
+                                v.Size = UDim2.new(0, 100, 0, 30)
+                                v.AlwaysOnTop = true
+                                v.StudsOffset = Vector3.new(0, 2, 0)
+                                z = Instance.new("TextLabel", v)
+                                z.Size = UDim2.new(1, 0, 1, 0)
+                                z.BackgroundTransparency = 1
+                                z.Text = "Tá´ÊÉ¢á´á´"
+                                z.TextColor3 = bp
+                                z.TextSize = 16
+                                z.Font = Enum.Font.GothamBlack
+                                cn = Instance.new("UIStroke", z)
+                                cn.Thickness = 3
+                                cn.Color = Color3.fromRGB(0, 0, 0)
+                                v.Parent = y
+                            end
+                        else
+                            w(select(2, ...))
+                        end
+                        task.wait(0.01)
+                        continue
+                    end
+                    break
+                end
+            end
+            w()
+            return u, v, destroy
+        end
+        _G.TargetESP = t:GetAttribute("T")
+        task.spawn(backgroundTask5)
+        return t
+    end
+    local function updateState(t)
+        local u
+        local function onRenderStepped()
+            local v, w, x, humanoidRootPart2, vector33, y, z2
+            if not _G.TargetLook then
+                u:Disconnect()
+            else
+                v = g()
+                w = af.Character
+                x = w and w:FindFirstChild("HumanoidRootPart")
+                if v and v.Character and x then
+                    humanoidRootPart2 = v.Character:FindFirstChild("HumanoidRootPart")
+                    x.RotVelocity = Vector3.zero
+                    y = x.Position.Y
+                    z2 = humanoidRootPart2.Position.Z
+                    vector33 = Vector3.new(humanoidRootPart2.Position.X, y, z2)
+                    if 0.1 < (vector33 - x.Position).Magnitude then
+                        y = x.Position
+                        x.CFrame = CFrame.lookAt(y, vector33)
+                    end
+                end
+            end
+        end
+        u = _G
+        _G.TargetLook = t:GetAttribute("T")
+        u = nil
+        if _G.TargetLook then
+            u = ae.RenderStepped:Connect(onRenderStepped)
+        end
+    end
+    local function computeValue(u, ...)
+        local t = u:GetAttribute("T")
+        if t then
+            au = g()
+            if au then
+                ay = true
+                bv()
+                bw(select(2, ...))
+            else
+                u:SetAttribute("T", false)
+                u.BackgroundColor3 = br
+                u.TextColor3 = bq
+                bs("5852470908")
+            end
+        else
+            bx()
+        end
+        return u, t
+    end
+    local function transformValue(t)
+        local t2 = t:GetAttribute("T")
+        if t2 then
+            bc = g()
+            if bc then
+                bb = true
+                return
+            else
+                t:SetAttribute("T", false)
+                t.BackgroundColor3 = br
+                t.TextColor3 = bq
+                bs("5852470908")
+                return t, t2
+            end
+        else
+            by()
+            return t, t2
+        end
+    end
+    local i, j
+    local function onMouseButton1Click4(...)
+        bs("5852470908")
+        local t
+        if d.Text == "" or not g(select(3, ...)) then
+            an("â Aá´á´á´ss Dá´É´Éªá´á´", "FÉªÊsá´ Sá´Êá´á´á´ Tá´ÊÉ¢á´á´ð¯...", 2)
+        else
+            if j == 0 then
+                ca.target = g(select(3, ...))
+            end
+            j = (j + 1) % 6
+            if j == 1 then
+                ca:stop()
+                t = ca
+                ca.offset = CFrame.new(0, 0, -5)
+                t.lookAtTarget = false
+                t:playAnim("", nil)
+                ca:start()
+                i.Text = "FÊá´É´á´ â¬ï¸"
+                i.BackgroundColor3 = bp
+                i.TextColor3 = br
+            end
+        end
+    end
+    local function transformValue2(t)
+        if t:GetAttribute("T") then
+            cb.target = g()
+            cb._startTime = os.clock()
+            cb:playAnim("", nil)
+            cb:start()
+            return t
+        else
+            cb:stop()
+        end
+        return t
+    end
+    local function transformValue3(t)
+        if t:GetAttribute("T") then
+            cc.target = g()
+            bn(true)
+            cc:playAnim("121803583995185", nil, 1)
+            cc:start()
+        else
+            cc:stop()
+            bn(false)
+        end
+        return t
+    end
+    local function transformValue4(t)
+        if t:GetAttribute("T") then
+            cd.target = g()
+            bn(true)
+            cd:playAnim("121803583995185", nil, 1)
+            cd:start()
+        else
+            cd:stop()
+            bn(false)
+        end
+        return t
+    end
+    local function transformValue5(t)
+        if t:GetAttribute("T") then
+            bd.target = g()
+            bd._startTime = os.clock()
+            bd:playAnim("85287774070688", 0.829, 0)
+            bd:start()
+            return t
+        else
+            bd:stop()
+        end
+        return t
+    end
+    local function transformValue6(t)
+        if t:GetAttribute("T") then
+            be.target = g()
+            be._startTime = os.clock()
+            be:playAnim("13694096724", 3.4, 0)
+            be:start()
+            return t
+        else
+            be:stop()
+        end
+        return t
+    end
+    local function transformValue7(t)
+        if t:GetAttribute("T") then
+            ce.target = g()
+            ce:playAnim("101770532783937", nil, 1)
+            ce:start()
+            return t
+        else
+            ce:stop()
+        end
+        return t
+    end
+    local function transformValue8(t)
+        if t:GetAttribute("T") then
+            bf.target = g()
+            bf._startTime = os.clock()
+            bf:playAnim("112833317179264", 1.792, 0)
+            bf:start()
+            return t
+        else
+            bf:stop()
+        end
+        return t
+    end
+    local function transformValue9(t)
+        local humanoid7, u
+        if t:GetAttribute("T") then
+            bg.target = g()
+            bg._startTime = os.clock()
+            humanoid7 = af.Character:FindFirstChildOfClass("Humanoid")
+            u = Enum
+            humanoid7:SetStateEnabled(Enum.HumanoidStateType.Dead, false)
+            humanoid7:SetStateEnabled(u.HumanoidStateType.FallingDown, false)
+            humanoid7:SetStateEnabled(u.HumanoidStateType.Ragdoll, false)
+            bg:playAnim("70396081158319", 0.729, 0)
+            bg:start()
+            return t, humanoid7
+        else
+            bg:stop()
+            return t
+        end
+    end
+    local function transformValue10(t)
+        if t:GetAttribute("T") then
+            cf.target = g()
+            cf:playAnim("79920226991831", nil, 1)
+            cf:start()
+            return t
+        else
+            cf:stop()
+        end
+        return t
+    end
+    local function transformValue11(t)
+        if t:GetAttribute("T") then
+            cg.target = g()
+            cg:playAnim("112078433891854", nil, 1)
+            cg:start()
+            return t
+        else
+            cg:stop()
+        end
+        return t
+    end
+    local function transformValue12(t)
+        if t:GetAttribute("T") then
+            ch.target = g()
+            ch:playAnim("116243979368109", nil, 1)
+            ch:start()
+            return t
+        else
+            ch:stop()
+        end
+        return t
+    end
+    local function transformValue13(t)
+        if t:GetAttribute("T") then
+            ci.target = g()
+            ci:playAnim("70869637765981", nil, 1)
+            ci:start()
+            return t
+        else
+            ci:stop()
+        end
+        return t
+    end
+    local function transformValue14(t)
+        if t:GetAttribute("T") then
+            cj.target = g()
+            cj:playAnim("89740248756697", 1.85, 0)
+            cj:start()
+            return t
+        else
+            cj:stop()
+        end
+        return t
+    end
+    local function getAttribute3(t)
+        local u
+        local function performTask()
+            sethiddenproperty(u, "PhysicsRepRootPart", nil)
+        end
+        u = t:GetAttribute("T")
+        if u then
+            u = bh
+            bh.target = g()
+            u = u.target
+            bh.orbitAngle = 0
+            u = bh.playAnim
+            u(bh, "133126721618325", nil, 1)
+            u = bh.start
+            u(bh)
+        else
+            u = bh.stop
+            u(bh)
+            u = af.Character
+        end
+        return t
+    end
+    local function transformValue15(t)
+        local function backgroundTask4()
+            local u
+            if t:GetAttribute("T") then
+                u = af.Character:FindFirstChild("HumanoidRootPart")
+                if u and u.Position.Y < -99999999 then
+                    u.CFrame = CFrame.new(bj)
+                end
+                task.wait(0.01)
+                while true do
+                    if t:GetAttribute("T") then
+                        u = af.Character:FindFirstChild("HumanoidRootPart")
+                        if u and u.Position.Y < -99999999 then
+                            u.CFrame = CFrame.new(bj)
+                        end
+                        task.wait(0.01)
+                        continue
+                    end
+                    break
+                end
+            end
+        end
+        task.spawn(backgroundTask4)
+        return t
+    end
+    local function executeRemoteScript2()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/THEBESTLEADERSHIP/ENDLESS-AURA/refs/heads/main/ANTI%20VOID%20V1"))
+    end
+    local function executeRemoteScript3()
+        loadstring(game:HttpGet("https://pastebin.com/raw/d4r8JDXz"))
+    end
+    local function transformValue16(t)
+        local function backgroundTask3(...)
+            if t:GetAttribute("T") then
+                af.Character.Humanoid.Sit = false
+                task.wait()
+                t:GetAttribute("T")
+                af.Character.Humanoid.Sit = false
+                task.wait(select(2, ...))
+                while true do
+                    if t:GetAttribute("T") then
+                        af.Character.Humanoid.Sit = false
+                        task.wait(select(2, ...))
+                        continue
+                    end
+                    break
+                end
+            end
+        end
+        task.spawn(backgroundTask3)
+        return t
+    end
+    local function performTask2()
+        game:GetService("VirtualUser"):ClickButton2(Vector2.new())
+    end
+    local function transformValue17(t)
+        local function backgroundTask2(...)
+            local u
+            if t:GetAttribute("T") then
+                u = Vector3.zero
+                af.Character.HumanoidRootPart.Velocity = u
+                u = Vector3.zero
+                af.Character.HumanoidRootPart.RotVelocity = u
+                task.wait()
+                t:GetAttribute("T")
+                u = Vector3.zero
+                af.Character.HumanoidRootPart.Velocity = u
+                u = Vector3.zero
+                af.Character.HumanoidRootPart.RotVelocity = u
+                task.wait(select(2, ...))
+                while true do
+                    if t:GetAttribute("T") then
+                        u = Vector3.zero
+                        af.Character.HumanoidRootPart.Velocity = u
+                        u = Vector3.zero
+                        af.Character.HumanoidRootPart.RotVelocity = u
+                        task.wait(select(2, ...))
+                        continue
+                    end
+                    break
+                end
+            end
+        end
+        task.spawn(backgroundTask2)
+        return t
+    end
+    local function executeRemoteScript4()
+        loadstring(game:HttpGet("https://pastefy.app/FXKw8qUW/raw"))
+    end
+    local function executeRemoteScript5()
+        loadstring(game:HttpGet("https://pastefy.app/Kr8K4buM/raw"))
+    end
+    local function executeRemoteScript6()
+        loadstring(game:HttpGet("https://pastefy.app/dnpk7tR5/raw"))
+    end
+    local function executeRemoteScript7()
+        loadstring(game:HttpGet("https://pastefy.app/FXKw8qUW/raw"))
+    end
+    local function executeRemoteScript8()
+        loadstring(game:HttpGet("https://pastefy.app/775LdbpK/raw"))
+    end
+    local function executeRemoteScript9()
+        loadstring(game:HttpGet("https://pastefy.app/FXKw8qUW/raw"))
+    end
+    local function executeRemoteScript10()
+        loadstring(game:HttpGet("https://pastefy.app/n0EOICUZ/raw"))
+    end
+    local function updateState2(t)
+        if af.Character and af.Character:FindFirstChild("Humanoid") then
+            af.Character.Humanoid.WalkSpeed = t:GetAttribute("T") and 300 or 16
+        end
+    end
+    local function getAttribute4(t)
+        _G.InfJump = t:GetAttribute("T")
+    end
+    local function transformValue18(t)
+        local function backgroundTask(...)
+            local u
+            if t:GetAttribute("T") then
+                af.Character:FindFirstChild("HumanoidRootPart")
+                u = af.Character.HumanoidRootPart
+                u.CFrame = u.CFrame * CFrame.Angles(0, 1145.9155902616465, 0)
+                task.wait()
+                af.Character:FindFirstChild("HumanoidRootPart")
+                u = af.Character.HumanoidRootPart
+                u.CFrame = u.CFrame * CFrame.Angles(0, 1145.9155902616465, 0)
+                task.wait(select(2, ...))
+                while true do
+                    if t:GetAttribute("T") then
+                        af.Character:FindFirstChild("HumanoidRootPart")
+                        u = af.Character.HumanoidRootPart
+                        u.CFrame = u.CFrame * CFrame.Angles(0, 1145.9155902616465, 0)
+                        task.wait(select(2, ...))
+                        continue
+                    end
+                    break
+                end
+            end
+        end
+        task.spawn(backgroundTask)
+        return t
+    end
+    local function updateState3(t)
+        local function onStepped()
+            local u, v, w, x, y
+            if t:GetAttribute("T") and af.Character then
+                af.Character:GetChildren()
+                u = pairs(v)
+                y = table.pack(u(v, nil))
+                x = table.unpack(y, 1, y.n)
+                if not (x == nil) then
+                    w = x
+                    while true do
+                        if y[2]:IsA("BasePart") then
+                            y[2].CanCollide = false
+                        end
+                        y = table.pack(u(v, w))
+                        x = table.unpack(y, 1, y.n)
+                        if x ~= nil then
+                            w = x
+                            continue
+                        end
+                        break
+                    end
+                end
+                return u, v, x, table.unpack(y, 1, y.n)
+            else
+                return
+            end
+        end
+        if t:GetAttribute("T") then
+            ae.Stepped:Connect(onStepped)
+        end
+    end
+    local function executeRemoteScript11()
+        loadstring(game:HttpGet("https://pastebin.com/raw/tLukyENu"))
+    end
+    local function executeRemoteScript12()
+        loadstring(game:HttpGet("https://pastebin.com/raw/LmxNcQvt"))
+    end
+    local function executeRemoteScript13()
+        loadstring(game:HttpGet("https://pastebin.com/raw/DtJPutfe"))
+    end
+    local function executeRemoteScript14()
+        loadstring(game:HttpGet("https://pastebin.com/raw/7QTTJFFa"))
+    end
+    local function executeRemoteScript15()
+        loadstring(game:HttpGet("https://rawscripts.net/raw/Universal-Script-sky-destroyer-V2-AXEZZ-110640"))
+    end
+    local function runProtected()
+        local function executeRemoteScript()
+            loadstring(game:HttpGet("https://rawscripts.net/raw/Universal-Script-7yd7-I-Emote-Script-48024"))
+        end
+        pcall(executeRemoteScript)
+    end
+    local function executeRemoteScript16()
+        loadstring(game:HttpGet("https://pastebin.com/raw/VV3ggiki"))
+    end
+    local function performTask3()
+        bi:Teleport(game.PlaceId, af)
+    end
+    local function onMouseButton1Click5(...)
+        bs("5852470908")
+        bm(select(2, ...))
+    end
+    local k
+    local function backgroundTask7()
+        local function tryOperation3()
+            local getUserIdFromNameAsync = players:GetUserIdFromNameAsync("badmosh_kavya09")
+            local size150x150 = Enum.ThumbnailSize.Size150x150
+            k.Image = players:GetUserThumbnailAsync(getUserIdFromNameAsync, Enum.ThumbnailType.HeadShot, size150x150)
+        end
+        pcall(tryOperation3)
+    end
+    local l
+    local function backgroundTask8()
+        local function tryOperation2()
+            local getUserIdFromNameAsync2 = players:GetUserIdFromNameAsync("siya_0401")
+            local size150x1502 = Enum.ThumbnailSize.Size150x150
+            l.Image = players:GetUserThumbnailAsync(getUserIdFromNameAsync2, Enum.ThumbnailType.HeadShot, size150x1502)
+        end
+        pcall(tryOperation2)
+    end
+    local m
+    local function backgroundTask9()
+        local function tryOperation()
+            local getUserIdFromNameAsync3 = players:GetUserIdFromNameAsync("Ea_Atul")
+            local size150x1503 = Enum.ThumbnailSize.Size150x150
+            m.Image = players:GetUserThumbnailAsync(getUserIdFromNameAsync3, Enum.ThumbnailType.HeadShot, size150x1503)
+        end
+        pcall(tryOperation)
+    end
+    local frame
+    local function transformValue19(t)
+        frame.Visible = t
+        bk.Enabled = t
+        if t then
+            if not bl.IsPlaying then
+                bl:Resume()
+                return t
+            else
+                return
+            end
+        else
+            bl:Pause()
+        end
+        return t
+    end
+    local n
+    local function onMouseButton1Click6()
+        bs("5852470908")
+        n(not frame.Visible)
+    end
+    local function onMessageReceived(t)
+        local u = bb and bc and t.TextSource
+        local userId
+        if u then
+            userId = bc.UserId
+            u = t.TextSource.UserId == userId
+        end
+        local v
+        if u then
+            u = ab.TextChannels:FindFirstChild("RBXGeneral")
+            u:SendAsync(t.Text)
+            v = aa:FindFirstChild("DefaultChatSystemChatEvents") and aa.DefaultChatSystemChatEvents:FindFirstChild("SayMessageRequest")
+            if v then
+                v:FireServer(t.Text, "All")
+                return t, u, v
+            else
+                return t, u
+            end
+        end
+    end
+    b = "Frame"
+    frame = Instance.new("Frame", bo)
+    c = 300
+    frame.Size = UDim2.new(0, 420, 0, 300)
+    c = -150
+    frame.Position = UDim2.new(0.5, -210, 0.5, -150)
+    frame.BackgroundColor3 = bq
+    frame.BackgroundTransparency = 0.4
+    b = bt
+    bt(frame)
+    b = Instance.new
+    b("UICorner", frame)
+    b = Instance.new("UIStroke", frame)
+    b.Thickness = 2
+    b.Color = bp
+    local imageLabel = Instance.new("ImageLabel", frame)
+    c = 28
+    a = 0
+    imageLabel.Size = UDim2.new(0, 28, 0, 28)
+    c = 10
+    a = 0
+    imageLabel.Position = UDim2.new(0, 10, 0, 6)
+    imageLabel.BackgroundTransparency = 1
+    imageLabel.Image = "rbxassetid://85776523398751"
+    c = frame
+    local textLabel = Instance.new("TextLabel", frame)
+    c = 0
+    a = 200
+    textLabel.Size = UDim2.new(0, 200, 0, 28)
+    c = 0
+    a = 43
+    textLabel.Position = UDim2.new(0, 43, 0, 5)
+    textLabel.BackgroundTransparency = 1
+    textLabel.Text = "Fá´ÉªÊÊ Tá´ÉªÊ"
+    textLabel.TextColor3 = bp
+    textLabel.TextSize = 20
+    textLabel.Font = Enum.Font.GothamBlack
+    textLabel.TextXAlignment = Enum.TextXAlignment.Left
+    c = "Frame"
+    a = frame
+    local frame2 = Instance.new("Frame", frame)
+    a = 1
+    h = 2
+    frame2.Size = UDim2.new(1, -20, 0, 2)
+    a = 0
+    h = 38
+    frame2.Position = UDim2.new(0, 10, 0, 38)
+    frame2.BackgroundColor3 = bp
+    frame2.BorderSizePixel = 0
+    a = "Frame"
+    c = Instance.new("Frame", frame)
+    h = 1
+    c.Size = UDim2.new(0, 95, 1, -50)
+    h = 0
+    c.Position = UDim2.new(0, 10, 0, 45)
+    c.BackgroundTransparency = 1
+    a = Instance.new("UIListLayout", c)
+    h = 4
+    a.Padding = UDim.new(0, 4)
+    a = Instance.new("Frame", frame)
+    h = -125
+    a.Size = UDim2.new(1, -125, 1, -50)
+    h = 115
+    a.Position = UDim2.new(0, 115, 0, 45)
+    a.BackgroundTransparency = 1
+    local o = createScrollingFrame(select(15, ...))
+    h = createScrollingFrame(select(15, ...))
+    local p = createScrollingFrame(select(15, ...))
+    local q = createScrollingFrame(select(15, ...))
+    local r = createScrollingFrame(select(15, ...))
+    local s = createScrollingFrame(select(14, ...))
+    local uIGridLayout = o.UIGridLayout
+    d = uIGridLayout
+    uIGridLayout.Destroy(d)
+    uIGridLayout = s.UIGridLayout
+    d = uIGridLayout
+    uIGridLayout.Destroy(d)
+    d = connectEvents
+    e = "ð IÉ´Òá´"
+    f = o
+    connectEvents("ð IÉ´Òá´", o)
+    d = connectEvents
+    e = "ð TÊá´ÊÊ"
+    f = h
+    connectEvents("ð TÊá´ÊÊ", h)
+    d = connectEvents
+    e = "ð¡ï¸ SÊÉªá´Êá´"
+    f = p
+    connectEvents("ð¡ï¸ SÊÉªá´Êá´", p)
+    d = connectEvents
+    e = "ðº Sá´á´á´"
+    f = q
+    connectEvents("ðº Sá´á´á´", q)
+    d = connectEvents
+    e = "ð Oá´Êá´R"
+    f = r
+    connectEvents("ð Oá´Êá´R", r)
+    d = connectEvents
+    e = "ð CÊá´á´á´á´Ê"
+    f = s
+    connectEvents("ð CÊá´á´á´á´Ê", s)
+    o.Visible = true
+    e = "TextBox"
+    f = h
+    d = Instance.new("TextBox", h)
+    f = 0.47
+    g = 0
+    d.Size = UDim2.new(0.47, 0, 0, 32)
+    d.PlaceholderText = "Tá´ÊÉ¢á´á´ Ná´á´á´..."
+    f = 20
+    g = 20
+    d.BackgroundColor3 = Color3.fromRGB(20, 20, 20)
+    d.TextColor3 = br
+    e = Instance.new
+    f = "UICorner"
+    g = d
+    e("UICorner", d)
+    e = ""
+    f = nil
+    g = processItems
+    d:GetPropertyChangedSignal("Text"):Connect(onTextChanged)
+    players.PlayerRemoving:Connect(onPlayerRemoving)
+    players.PlayerAdded:Connect(onPlayerAdded)
+    local imageButton = Instance.new("ImageButton", o)
+    i = 65
+    j = 0
+    imageButton.Size = UDim2.new(0, 65, 0, 65)
+    i = -45
+    j = 0
+    imageButton.Position = UDim2.new(0.5, -45, 0, 5)
+    imageButton.BackgroundTransparency = 1
+    imageButton.Image = "rbxassetid://85776523398751"
+    i = onMouseButton1Click3
+    imageButton.MouseButton1Click:Connect(onMouseButton1Click3)
+    i = o
+    local textLabel2 = Instance.new("TextLabel", o)
+    i = 1
+    j = 0
+    textLabel2.Size = UDim2.new(1, 0, 1, -75)
+    i = 0
+    j = 0
+    textLabel2.Position = UDim2.new(0, 0, 0, 75)
+    textLabel2.BackgroundTransparency = 1
+    textLabel2.TextColor3 = br
+    textLabel2.TextSize = 9.5
+    i = Enum.Font
+    textLabel2.Font = i.GothamBold
+    textLabel2.TextXAlignment = "Left"
+    textLabel2.TextYAlignment = "Top"
+    textLabel2.Text = "ââââââââââââââââââââââââââââââââ\nãããð§ââï¸ ï¼¦ï¼¡ï¼©ï¼²ï¼¹ ï¼´ï¼¡ï¼©ï¼¬ ï¼¦ï¼¡ï¼©ï¼²ï¼¹ ð§ââï¸\nââââââââââââââââââââââââââââââââ\n\nâ¦ Gá´ÉªÊá´ IÉ´Òá´ â¦\n\nâ­âââââââ â§ ââââââââ®\nð¸ CÊá´á´á´á´á´ BÊ\nð Ká´á´ Êá´ & SÉªÉªá´\nâ°âââââââ â§ ââââââââ¯\n\nð§ââï¸ Fá´ÉªÊÊ Tá´ÉªÊ\nâ¦ Gá´É´É¢ Ná´á´á´ â¦\n\nð Lá´á´á´á´R á´Ò [ Fá´ÉªÊÊ Tá´ÉªÊ ]ð\nð Ká´á´ Êá´\n\nð Sá´á´á´É´á´ Lá´á´á´á´R á´Ò [ Fá´ÉªÊÊ Tá´ÉªÊ ] ð\nð¦ SÉªÉªá´\n\nââââââââââââââââââ\n\nâ¡ Pá´á´¡á´Rá´á´ BÊ\nâ¾ï¸ EÉ´á´Êá´ss Aá´Êá´\n\nð¡ï¸ Há´Êá´á´R\nð¥ Eá´_Aá´á´Ê\nð Lá´á´á´á´R á´Ò [ EÉ´á´ÊESs Aá´Êá´ ]ð¢\n\nâââââââââââââââââ"
+    i = "UIGridLayout"
+    j = h
+    local uIGridLayout2 = Instance.new("UIGridLayout", h)
+    j = 0.47
+    uIGridLayout2.CellSize = UDim2.new(0.47, 0, 0, 32)
+    j = 0.04
+    uIGridLayout2.CellPadding = UDim2.new(0.04, 0, 0.02, 0)
+    i = connectEvents2
+    j = "ð Sá´á´á´ AÊÊ"
+    connectEvents2("ð Sá´á´á´ AÊÊ", h, findChild, true)
+    i = connectEvents2
+    j = "â¡ Tá´"
+    connectEvents2("â¡ Tá´", h, getHumanoidRootPart, true)
+    i = connectEvents2
+    j = "ð VÉªá´Ws"
+    connectEvents2("ð VÉªá´Ws", h, getAttribute)
+    i = connectEvents2
+    j = "ð Tá´ÊÉ¢á´á´ E s p"
+    connectEvents2("ð Tá´ÊÉ¢á´á´ E s p", h, getAttribute2)
+    i = connectEvents2
+    j = "ðï¸ Tá´ÊÉ¢á´á´ Lá´á´á´"
+    connectEvents2("ðï¸ Tá´ÊÉ¢á´á´ Lá´á´á´", h, updateState, false)
+    i = connectEvents2
+    j = "ð¥ Cá´á´Ê AÉ´Éªá´"
+    connectEvents2("ð¥ Cá´á´Ê AÉ´Éªá´", h, computeValue)
+    i = connectEvents2
+    j = "ð¬ Cá´á´Ê CÊá´á´"
+    connectEvents2("ð¬ Cá´á´Ê CÊá´á´", h, transformValue)
+    j = "TextButton"
+    i = Instance.new("TextButton", h)
+    i.Size = UDim2.new(0.47, 0, 0, 32)
+    i.BackgroundColor3 = br
+    i.Text = "ð Sá´á´É´á´: OÒÒ"
+    i.TextColor3 = bq
+    i.Font = Enum.Font.GothamBold
+    i.TextSize = 8.5
+    j = Instance.new
+    j("UICorner", i)
+    j = 0
+    i.MouseButton1Click:Connect(onMouseButton1Click4)
+    connectEvents2("ðª Há´á´á´sÉªá´", h, transformValue2)
+    connectEvents2("ð Bá´É´É¢", h, transformValue3)
+    connectEvents2("ð¥µ BÊá´Wsá´Ê", h, transformValue4)
+    connectEvents2("ð¦ CÊá´á´á´", h, transformValue5)
+    connectEvents2("ð Sá´á´á´", h, transformValue6)
+    connectEvents2("ð¶ Dá´É¢ Pá´sá´", h, transformValue7)
+    connectEvents2("âï¸ Aá´Êá´á´Êá´É´á´ Pá´sá´", h, transformValue8)
+    connectEvents2("ð¦ Bá´á´á´á´ÊÒÊÊ Pá´sá´", h, transformValue9)
+    connectEvents2("ð¤ Há´É¢", h, transformValue10)
+    connectEvents2("ð KÉªss", h, transformValue11)
+    connectEvents2("ð TÊá´É´á´ Yá´á´", h, transformValue12)
+    connectEvents2("ð­ Sá´ÊÊÊ", h, transformValue13)
+    connectEvents2("ð¹ Rá´sá´", h, transformValue14)
+    connectEvents2("ðª OÊÊÉªá´", h, getAttribute3)
+    connectEvents2("ð¡ï¸ AÉ´á´Éª Vá´Éªá´", p, transformValue15)
+    k = false
+    connectEvents2("ð¡ï¸ AÉ´á´Éª Vá´Éªá´ V1", p, executeRemoteScript2, false)
+    k = true
+    connectEvents2("ð¡ï¸ AÉ´á´Éª Bá´É´É¢", p, executeRemoteScript3, true)
+    connectEvents2("ð¡ï¸ AÉ´á´Éª SÉªá´", p, transformValue16)
+    k = true
+    connectEvents2("ð¡ï¸ AÉ´á´Éª AÒá´", p, performTask2, true)
+    connectEvents2("ð¡ï¸ AÉ´á´Éª FÊÉªÉ´É¢", p, transformValue17)
+    k = true
+    connectEvents2("ðºKá´á´ Êá´ Sá´á´á´á´á´Êð¤", q, executeRemoteScript4, true)
+    k = true
+    connectEvents2("â¡ SÉªÊá´ Sá´á´á´á´á´Êð¤", q, executeRemoteScript5, true)
+    k = true
+    connectEvents2("ð¥ Aá´á´Ê Sá´á´á´á´á´Ê ð¢", q, executeRemoteScript6, true)
+    k = true
+    connectEvents2("ð« Cá´sá´á´á´á´ Sá´á´á´á´á´R ð¥", q, executeRemoteScript7, true)
+    k = true
+    connectEvents2("ð3 Tá´ÊÉ¢á´á´ Sá´á´á´á´á´Êð¼", q, executeRemoteScript8, true)
+    k = true
+    connectEvents2("ð·WoRD Sá´á´á´á´á´Êâ¡", q, executeRemoteScript9, true)
+    k = true
+    connectEvents2("FT MULTI-BANGð", r, executeRemoteScript10, true)
+    connectEvents2("â¡ Speed 300", r, updateState2)
+    connectEvents2("ð Fly Jump", r, getAttribute4)
+    connectEvents2("ð Spin 300", r, transformValue18)
+    connectEvents2("ð» Noclip", r, updateState3)
+    k = true
+    connectEvents2("AIR WALK ð", r, executeRemoteScript11, true)
+    k = true
+    connectEvents2("Auraâï¸", r, executeRemoteScript12, true)
+    k = true
+    connectEvents2("HIDE BUTTONS ð", r, executeRemoteScript13, true)
+    k = true
+    connectEvents2("ð¥· Copy Ninja", r, executeRemoteScript14, true)
+    k = true
+    connectEvents2("ðª Sky Destroyer", r, executeRemoteScript15, true)
+    k = true
+    connectEvents2("ð­ Emote Name", r, runProtected, true)
+    k = true
+    connectEvents2("EA EMOTEð¤", r, executeRemoteScript16, true)
+    k = true
+    connectEvents2("ð Rejoin", r, performTask3, true)
+    k = 420
+    s.CanvasSize = UDim2.new(0, 0, 0, 420)
+    local imageButton2 = Instance.new("ImageButton", s)
+    k = 0
+    imageButton2.Size = UDim2.new(0, 55, 0, 55)
+    k = 0
+    imageButton2.Position = UDim2.new(0.5, -27.5, 0, 8)
+    imageButton2.BackgroundTransparency = 1
+    imageButton2.Image = "rbxassetid://85776523398751"
+    imageButton2.MouseButton1Click:Connect(onMouseButton1Click5)
+    local frame3 = Instance.new("Frame", s)
+    k = -10
+    frame3.Size = UDim2.new(1, -10, 0, 95)
+    k = 5
+    frame3.Position = UDim2.new(0, 5, 0, 75)
+    k = 15
+    frame3.BackgroundColor3 = Color3.fromRGB(15, 15, 15)
+    frame3.BackgroundTransparency = 0.25
+    frame3.BorderSizePixel = 0
+    k = frame3
+    k = 0
+    Instance.new("UICorner", frame3).CornerRadius = UDim.new(0, 8)
+    k = frame3
+    local uIStroke2 = Instance.new("UIStroke", frame3)
+    uIStroke2.Color = bp
+    uIStroke2.Thickness = 1.5
+    k = "TextLabel"
+    local textLabel3 = Instance.new("TextLabel", frame3)
+    textLabel3.Size = UDim2.new(1, 0, 0, 22)
+    textLabel3.Position = UDim2.new(0, 0, 0, 4)
+    textLabel3.BackgroundTransparency = 1
+    textLabel3.Text = "ð OWNER ð¢"
+    textLabel3.TextColor3 = Color3.fromRGB(255, 215, 0)
+    textLabel3.TextSize = 14
+    textLabel3.Font = Enum.Font.GothamBlack
+    k = Instance.new("ImageLabel", frame3)
+    l = 48
+    k.Size = UDim2.new(0, 48, 0, 48)
+    l = 32
+    k.Position = UDim2.new(0, 12, 0, 32)
+    k.BackgroundColor3 = Color3.fromRGB(30, 30, 30)
+    k.BorderSizePixel = 0
+    Instance.new("UICorner", k).CornerRadius = UDim.new(1, 0)
+    task.spawn(backgroundTask7)
+    local textLabel4 = Instance.new("TextLabel", frame3)
+    l = 0
+    textLabel4.Size = UDim2.new(0, 180, 0, 48)
+    l = 0
+    textLabel4.Position = UDim2.new(0, 70, 0, 32)
+    textLabel4.BackgroundTransparency = 1
+    textLabel4.Text = "EAxFT_KAvYA"
+    textLabel4.TextColor3 = br
+    textLabel4.TextSize = 15
+    textLabel4.Font = Enum.Font.GothamBold
+    textLabel4.TextXAlignment = Enum.TextXAlignment.Left
+    textLabel4.TextYAlignment = Enum.TextYAlignment.Center
+    local frame4 = Instance.new("Frame", s)
+    l = -10
+    frame4.Size = UDim2.new(1, -10, 0, 95)
+    l = 5
+    frame4.Position = UDim2.new(0, 5, 0, 180)
+    l = 15
+    frame4.BackgroundColor3 = Color3.fromRGB(15, 15, 15)
+    frame4.BackgroundTransparency = 0.25
+    frame4.BorderSizePixel = 0
+    l = frame4
+    l = 0
+    Instance.new("UICorner", frame4).CornerRadius = UDim.new(0, 8)
+    l = frame4
+    local uIStroke3 = Instance.new("UIStroke", frame4)
+    uIStroke3.Color = bp
+    uIStroke3.Thickness = 1.5
+    l = "TextLabel"
+    local textLabel5 = Instance.new("TextLabel", frame4)
+    textLabel5.Size = UDim2.new(1, 0, 0, 22)
+    textLabel5.Position = UDim2.new(0, 0, 0, 4)
+    textLabel5.BackgroundTransparency = 1
+    textLabel5.Text = "ð OWNER ð¢"
+    textLabel5.TextColor3 = Color3.fromRGB(255, 215, 0)
+    textLabel5.TextSize = 14
+    textLabel5.Font = Enum.Font.GothamBlack
+    l = Instance.new("ImageLabel", frame4)
+    m = 48
+    l.Size = UDim2.new(0, 48, 0, 48)
+    m = 32
+    l.Position = UDim2.new(0, 12, 0, 32)
+    l.BackgroundColor3 = Color3.fromRGB(30, 30, 30)
+    l.BorderSizePixel = 0
+    Instance.new("UICorner", l).CornerRadius = UDim.new(1, 0)
+    task.spawn(backgroundTask8)
+    local textLabel6 = Instance.new("TextLabel", frame4)
+    m = 0
+    textLabel6.Size = UDim2.new(0, 180, 0, 48)
+    m = 0
+    textLabel6.Position = UDim2.new(0, 70, 0, 32)
+    textLabel6.BackgroundTransparency = 1
+    textLabel6.Text = "EAxFT_SIYA"
+    textLabel6.TextColor3 = br
+    textLabel6.TextSize = 15
+    textLabel6.Font = Enum.Font.GothamBold
+    textLabel6.TextXAlignment = Enum.TextXAlignment.Left
+    textLabel6.TextYAlignment = Enum.TextYAlignment.Center
+    local frame5 = Instance.new("Frame", s)
+    m = -10
+    frame5.Size = UDim2.new(1, -10, 0, 95)
+    m = 5
+    frame5.Position = UDim2.new(0, 5, 0, 285)
+    m = 15
+    frame5.BackgroundColor3 = Color3.fromRGB(15, 15, 15)
+    frame5.BackgroundTransparency = 0.25
+    frame5.BorderSizePixel = 0
+    m = frame5
+    m = 0
+    Instance.new("UICorner", frame5).CornerRadius = UDim.new(0, 8)
+    m = frame5
+    local uIStroke4 = Instance.new("UIStroke", frame5)
+    uIStroke4.Color = bp
+    uIStroke4.Thickness = 1.5
+    m = "TextLabel"
+    local textLabel7 = Instance.new("TextLabel", frame5)
+    n = 0
+    textLabel7.Size = UDim2.new(1, 0, 0, 22)
+    n = 0
+    textLabel7.Position = UDim2.new(0, 0, 0, 4)
+    textLabel7.BackgroundTransparency = 1
+    textLabel7.Text = "ð OWNER ð¢"
+    n = 0
+    textLabel7.TextColor3 = Color3.fromRGB(255, 215, 0)
+    textLabel7.TextSize = 14
+    textLabel7.Font = Enum.Font.GothamBlack
+    m = Instance.new("ImageLabel", frame5)
+    n = 48
+    m.Size = UDim2.new(0, 48, 0, 48)
+    n = 12
+    m.Position = UDim2.new(0, 12, 0, 32)
+    n = 30
+    m.BackgroundColor3 = Color3.fromRGB(30, 30, 30)
+    m.BorderSizePixel = 0
+    n = m
+    n = 1
+    Instance.new("UICorner", m).CornerRadius = UDim.new(1, 0)
+    task.spawn(backgroundTask9)
+    n = frame5
+    local textLabel8 = Instance.new("TextLabel", frame5)
+    n = 0
+    textLabel8.Size = UDim2.new(0, 180, 0, 48)
+    n = 0
+    textLabel8.Position = UDim2.new(0, 70, 0, 32)
+    textLabel8.BackgroundTransparency = 1
+    textLabel8.Text = "EAxFT_ATUL"
+    textLabel8.TextColor3 = br
+    textLabel8.TextSize = 15
+    textLabel8.Font = Enum.Font.GothamBold
+    textLabel8.TextXAlignment = Enum.TextXAlignment.Left
+    textLabel8.TextYAlignment = Enum.TextYAlignment.Center
+    n = "ImageButton"
+    local imageButton3 = Instance.new("ImageButton", bo)
+    imageButton3.Size = UDim2.new(0, 50, 0, 50)
+    imageButton3.Position = UDim2.new(0, 10, 0.5, -25)
+    imageButton3.BackgroundTransparency = 1
+    imageButton3.Image = "rbxassetid://85776523398751"
+    n = bt
+    bt(imageButton3)
+    bk.Enabled = frame.Visible
+    n = frame.Visible
+    if n then
+        n = bl.Play
+        n(bl)
+    end
+    n = transformValue19
+    transformValue19(frame.Visible)
+    imageButton3.MouseButton1Click:Connect(onMouseButton1Click6)
+    ab.MessageReceived:Connect(onMessageReceived)
+    ao = 1
+    ap("113083314851722")
+    return frame, b, imageLabel, textLabel, frame2, c, a, createScrollingFrame, o, h, p, q, r, s, connectEvents, d, "", nil, g, connectEvents2, imageButton, textLabel2, uIGridLayout2, i, 0, imageButton2, frame3, uIStroke2, textLabel3, k, textLabel4, frame4, uIStroke3, textLabel5, l, textLabel6, frame5, uIStroke4, textLabel7, m, textLabel8, imageButton3, n
+end
+local ck
+local function backgroundTask11(...)
+    bs("3406813517")
+    ad:SetCore("SendNotification", {
+        Title = "Fá´ÉªÊÊ Tá´ÉªÊ",
+        Text = "Lá´á´á´á´Loaded...",
+        Icon = "rbxassetid://85776523398751",
+        Duration = 3,
+    })
+    task.wait(0.1)
+    ck(select(2, ...))
+end
+ae = game
+players = game:GetService("Players")
+ar = "RunService"
+ae = game:GetService("RunService")
+ar = game
+game:GetService("TweenService")
+aa = "UserInputService"
+ar = game:GetService("UserInputService")
+bi = "CoreGui"
+aa = game
+local coreGui = game:GetService("CoreGui")
+ab = "ReplicatedStorage"
+bi = game
+aa = game:GetService("ReplicatedStorage")
+ad = "TeleportService"
+ab = game
+bi = game:GetService("TeleportService")
+ad = game
+ab = game:GetService("TextChatService")
+af = "StarterGui"
+ad = game:GetService("StarterGui")
+al = "Lighting"
+af = game
+local lighting = game:GetService("Lighting")
+af = players.LocalPlayer
+ac = "Workspace"
+bj = game
+al = game:GetService("Workspace")
+ac = 0
+ag = 50
+bk = 0
+bj = Vector3.new(0, 50, 0)
+ac = runProtected3
+ag = task.spawn
+bk = performTask5
+ag(performTask5)
+ag = true
+an = "FairyTailBlur"
+bl = lighting
+bk = lighting:FindFirstChild("FairyTailBlur")
+bl = not bk
+if bl then
+    an = "BlurEffect"
+    bk = Instance.new("BlurEffect")
+    bk.Name = "FairyTailBlur"
+    bk.Size = 17
+    bl = false
+    bk.Enabled = false
+    bk.Parent = lighting
+end
+an = al
+bl = al:FindFirstChild("FairyTailBGM")
+an = not bl
+if an then
+    bl = Instance.new("Sound")
+    bl.Name = "FairyTailBGM"
+    bl.SoundId = "rbxassetid://1836101992"
+    bl.Volume = 1
+    an = true
+    bl.Looped = true
+    bl.Parent = al
+end
+an = computeValue2
+ah = nil
+ai = updateState4
+aj = connectEvents3
+ak = af.Character
+if ak then
+    ak = task.spawn
+    am = performTask6
+    ak(performTask6)
+end
+ak = af.CharacterAdded
+ao = transformValue20
+am = ak
+ak = ak.Connect
+ak(am, transformValue20)
+am = {}
+ak = am
+ak.__index = ak
+ak.new = newHandler
+ak.getTargetBody = getTargetBodyHandler
+ak.getLocalRoot = getLocalRootHandler
+ak.getLocalHumanoid = getLocalHumanoidHandler
+ak.clearConnections = clearConnectionsHandler
+ak.stopAnim = stopAnimHandler
+ak.playAnim = playAnimHandler
+ak.start = startHandler
+ak.stop = stopHandler
+am = nil
+ao = 0
+ap = createAnimation
+aq = updateState5
+bm = updateState6
+bn = createAnimation2
+bq = "FairyTail_Final"
+bp = coreGui
+bo = coreGui:FindFirstChild("FairyTail_Final")
+local cl
+if bo then
+    bo = coreGui.FairyTail_Final
+    bp = bo
+    bo = bo.Destroy
+    bo(bp)
+    bp = "ScreenGui"
+    bq = coreGui
+    bo = Instance.new("ScreenGui", coreGui)
+    bo.Name = "FairyTail_Final"
+    bq = 0
+    br = 255
+    bs = 255
+    bp = Color3.fromRGB(0, 255, 255)
+    bt = 0
+    as = 0
+    bu = 0
+    bq = Color3.fromRGB(0, 0, 0)
+    bs = 255
+    bt = 255
+    as = 255
+    br = Color3.fromRGB(255, 255, 255)
+    bs = createSound
+    bt = connectEvents4
+    as = getHumanoidRootPart2
+    bu = getHumanoidRootPart3
+    ay = false
+    au = nil
+    av = {}
+    at = {}
+    az = nil
+    aw = processItems2
+    ax = computeValue3
+    bv = processItems3
+    ba = processItems4
+    bw = updateState7
+    bx = disconnect
+    bb = false
+    bc = nil
+    by = updateState8
+    bz = {}
+    ca = ak.new(select(25, ...))
+    ca.attachPart = "UpperTorso"
+    ca.platformStand = true
+    cb = ak.new(select(26, ...))
+    cb.attachPart = "Head"
+    cb.platformStand = true
+    cd = 0
+    bd = 0.45
+    be = 0
+    cb.offset = CFrame.new(0, 0.45, 0)
+    cb.speed = 10
+    cc = ak.new(select(27, ...))
+    cc.attachPart = "UpperTorso"
+    cc.platformStand = true
+    bd = 0
+    be = 0
+    ce = 1.1
+    cc.offset = CFrame.new(0, 0, 1.1)
+    cd = ak.new(select(28, ...))
+    cd.attachPart = "Head"
+    bd = true
+    cd.platformStand = true
+    ce = 0
+    bf = 0.45
+    bg = -0.5
+    be = CFrame.new(0, 0.45, -0.5)
+    bf = 0
+    bg = math.pi
+    cf = 0
+    ce = CFrame.Angles(0, bg, 0)
+    cd.offset = be * ce
+    bd = ak.new(select(29, ...))
+    bd.attachPart = "Head"
+    be = true
+    bd.platformStand = true
+    bf = 0
+    bg = 0
+    cf = -1.2
+    ce = CFrame.new(0, 0, -1.2)
+    bg = 0
+    cf = math.pi
+    cg = 0
+    bf = CFrame.Angles(0, cf, 0)
+    bd.offset = ce * bf
+    bd.customUpdate = customUpdateHandler
+    be = ak.new(select(30, ...))
+    be.attachPart = "UpperTorso"
+    be.platformStand = true
+    bf = 0
+    bg = 0.3
+    cf = -4
+    be.offset = CFrame.new(0, 0.3, -4)
+    be.customUpdate = customUpdateHandler2
+    ce = ak.new(select(31, ...))
+    ce.attachPart = "UpperTorso"
+    ce.platformStand = true
+    bg = 0
+    cf = 1.3
+    cg = -1
+    ce.offset = CFrame.new(0, 1.3, -1)
+    bf = ak.new(select(32, ...))
+    bf.attachPart = "UpperTorso"
+    bf.platformStand = true
+    bf.freezeTime = 1.792
+    bf.customUpdate = customUpdateHandler3
+    bg = ak.new(select(33, ...))
+    bg.attachPart = "UpperTorso"
+    bg.platformStand = true
+    bg.freezeTime = 0.729
+    bg.customUpdate = customUpdateHandler4
+    cf = ak.new(select(34, ...))
+    cf.attachPart = "UpperTorso"
+    cf.platformStand = true
+    ch = 0
+    ci = 0
+    cj = 1.5
+    cf.offset = CFrame.new(0, 0, 1.5)
+    cf.antiCheatBypass = true
+    cg = ak.new(select(35, ...))
+    cg.attachPart = "UpperTorso"
+    cg.platformStand = true
+    ci = 0
+    cj = -2
+    bh = -1.5
+    cg.offset = CFrame.new(0, -2, -1.5)
+    cg.lookAtTarget = true
+    cg.antiCheatBypass = true
+    ch = ak.new(select(36, ...))
+    ch.attachPart = "UpperTorso"
+    ci = true
+    ch.platformStand = true
+    bh = 0
+    ck = 0
+    cj = CFrame.new(0, 0, -6)
+    ck = 0
+    bh = CFrame.Angles(0, math.pi, 0)
+    ch.offset = cj * bh
+    ch.antiCheatBypass = true
+    ci = ak.new(select(37, ...))
+    ci.attachPart = "UpperTorso"
+    cj = true
+    ci.platformStand = true
+    ck = 0
+    bh = CFrame.new(0, 0, -7)
+    ck = CFrame.Angles(0, math.pi, 0)
+    ci.offset = bh * ck
+    ci.antiCheatBypass = true
+    cj = ak.new(select(38, ...))
+    cj.attachPart = "UpperTorso"
+    cj.platformStand = true
+    bh = 1.85
+    cj.freezeTime = 1.85
+    ck = CFrame.new(0, 1, -5)
+    cl = math.pi
+    cj.offset = ck * CFrame.Angles(0, cl, 0)
+    cj.antiCheatBypass = true
+    bh = ak.new(select(39, ...))
+else
+    bp = "ScreenGui"
+    bq = coreGui
+    bo = Instance.new("ScreenGui", coreGui)
+    bo.Name = "FairyTail_Final"
+    bq = 0
+    br = 255
+    bs = 255
+    bp = Color3.fromRGB(0, 255, 255)
+    bt = 0
+    as = 0
+    bu = 0
+    bq = Color3.fromRGB(0, 0, 0)
+    bs = 255
+    bt = 255
+    as = 255
+    br = Color3.fromRGB(255, 255, 255)
+    bs = createSound
+    bt = connectEvents4
+    as = getHumanoidRootPart2
+    bu = getHumanoidRootPart3
+    ay = false
+    au = nil
+    av = {}
+    at = {}
+    az = nil
+    aw = processItems2
+    ax = computeValue3
+    bv = processItems3
+    ba = processItems4
+    bw = updateState7
+    bx = disconnect
+    bb = false
+    bc = nil
+    by = updateState8
+    bz = {}
+    ca = ak.new(select(32, ...))
+    ca.attachPart = "UpperTorso"
+    ca.platformStand = true
+    cb = ak.new(select(33, ...))
+    cb.attachPart = "Head"
+    cb.platformStand = true
+    cd = 0
+    bd = 0.45
+    be = 0
+    cb.offset = CFrame.new(0, 0.45, 0)
+    cb.speed = 10
+    cc = ak.new(select(34, ...))
+    cc.attachPart = "UpperTorso"
+    cc.platformStand = true
+    bd = 0
+    be = 0
+    ce = 1.1
+    cc.offset = CFrame.new(0, 0, 1.1)
+    cd = ak.new(select(35, ...))
+    cd.attachPart = "Head"
+    bd = true
+    cd.platformStand = true
+    ce = 0
+    bf = 0.45
+    bg = -0.5
+    be = CFrame.new(0, 0.45, -0.5)
+    bf = 0
+    bg = math.pi
+    cf = 0
+    ce = CFrame.Angles(0, bg, 0)
+    cd.offset = be * ce
+    bd = ak.new(select(36, ...))
+    bd.attachPart = "Head"
+    be = true
+    bd.platformStand = true
+    bf = 0
+    bg = 0
+    cf = -1.2
+    ce = CFrame.new(0, 0, -1.2)
+    bg = 0
+    cf = math.pi
+    cg = 0
+    bf = CFrame.Angles(0, cf, 0)
+    bd.offset = ce * bf
+    bd.customUpdate = customUpdateHandler
+    be = ak.new(select(37, ...))
+    be.attachPart = "UpperTorso"
+    be.platformStand = true
+    bf = 0
+    bg = 0.3
+    cf = -4
+    be.offset = CFrame.new(0, 0.3, -4)
+    be.customUpdate = customUpdateHandler2
+    ce = ak.new(select(38, ...))
+    ce.attachPart = "UpperTorso"
+    ce.platformStand = true
+    bg = 0
+    cf = 1.3
+    cg = -1
+    ce.offset = CFrame.new(0, 1.3, -1)
+    bf = ak.new(select(39, ...))
+    bf.attachPart = "UpperTorso"
+    bf.platformStand = true
+    bf.freezeTime = 1.792
+    bf.customUpdate = customUpdateHandler3
+    bg = ak.new(select(40, ...))
+    bg.attachPart = "UpperTorso"
+    bg.platformStand = true
+    bg.freezeTime = 0.729
+    bg.customUpdate = customUpdateHandler4
+    cf = ak.new(select(41, ...))
+    cf.attachPart = "UpperTorso"
+    cf.platformStand = true
+    ch = 0
+    ci = 0
+    cj = 1.5
+    cf.offset = CFrame.new(0, 0, 1.5)
+    cf.antiCheatBypass = true
+    cg = ak.new(select(42, ...))
+    cg.attachPart = "UpperTorso"
+    cg.platformStand = true
+    ci = 0
+    cj = -2
+    bh = -1.5
+    cg.offset = CFrame.new(0, -2, -1.5)
+    cg.lookAtTarget = true
+    cg.antiCheatBypass = true
+    ch = ak.new(select(43, ...))
+    ch.attachPart = "UpperTorso"
+    ci = true
+    ch.platformStand = true
+    bh = 0
+    ck = 0
+    cj = CFrame.new(0, 0, -6)
+    ck = 0
+    bh = CFrame.Angles(0, math.pi, 0)
+    ch.offset = cj * bh
+    ch.antiCheatBypass = true
+    ci = ak.new(select(44, ...))
+    ci.attachPart = "UpperTorso"
+    cj = true
+    ci.platformStand = true
+    ck = 0
+    bh = CFrame.new(0, 0, -7)
+    ck = CFrame.Angles(0, math.pi, 0)
+    ci.offset = bh * ck
+    ci.antiCheatBypass = true
+    cj = ak.new(select(45, ...))
+    cj.attachPart = "UpperTorso"
+    cj.platformStand = true
+    bh = 1.85
+    cj.freezeTime = 1.85
+    ck = CFrame.new(0, 1, -5)
+    cl = math.pi
+    cj.offset = ck * CFrame.Angles(0, cl, 0)
+    cj.antiCheatBypass = true
+    bh = ak.new(select(46, ...))
+end
+bh.attachPart = "UpperTorso"
+bh.platformStand = true
+bh.customUpdate = customUpdateHandler5
+ck = ar.JumpRequest
+local cm = ck
+ck = ck.Connect
+ck(cm, performTask7)
+ck = computeValue4
+task.spawn(backgroundTask11)
+
+-- https://discord.gg/AwGHNh7Z7T
