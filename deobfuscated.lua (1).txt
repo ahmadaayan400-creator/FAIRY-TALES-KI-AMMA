@@ -1,6 +1,5 @@
 --[[
-    Fіlе Dеоbfuѕсаteԁ Usіng LеaκD
-    https://discord.gg/AwGHNh7Z7T
+    LEAK BY AAYAN PAPA 
 ]]
 
 local aa, ab
@@ -3169,4 +3168,4 @@ ck(cm, performTask7)
 ck = computeValue4
 task.spawn(backgroundTask11)
 
--- https://discord.gg/AwGHNh7Z7T
+-- CLEAN KRNA BAKI HAI 
